@@ -1,0 +1,29 @@
+<svg id="_13-1" data-name="13-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="72" height="72" viewBox="0 0 72 72">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fefefe"/>
+      <stop offset="1" stop-color="#b4b4b4"/>
+    </linearGradient>
+    <filter id="减去_9" x="3.5" y="3.5" width="65" height="65" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feFlood flood-opacity="0.6"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="组_777" data-name="组 777">
+    <g id="组_766" data-name="组 766" transform="translate(-2488 -242)">
+      <rect id="矩形_849" data-name="矩形 849" width="58" height="58" rx="29" transform="translate(2495 249)" fill="#474747"/>
+      <rect id="矩形_854" data-name="矩形 854" width="42" height="42" rx="21" transform="translate(2503.5 257.5)" fill="#f1f1f1" stroke="#fff" stroke-width="0.5"/>
+    </g>
+    <g id="组_775" data-name="组 775" transform="translate(-2486.716 -240.716)">
+      <rect id="矩形_849-2" data-name="矩形 849" width="56" height="56" rx="28" transform="translate(2494.716 248.716)" fill="url(#linear-gradient)"/>
+      <rect id="矩形_854-2" data-name="矩形 854" width="40.693" height="40.693" rx="20.346" transform="translate(2502.831 256.831)" fill="#f1f1f1" stroke="#fff" stroke-width="0.5"/>
+    </g>
+  </g>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#减去_9)">
+    <path id="减去_9-2" data-name="减去 9" d="M-2871-79a27.832,27.832,0,0,1-10.9-2.2,27.914,27.914,0,0,1-8.9-6,27.925,27.925,0,0,1-6-8.9A27.814,27.814,0,0,1-2899-107a27.807,27.807,0,0,1,2.2-10.9,27.914,27.914,0,0,1,6-8.9,27.914,27.914,0,0,1,8.9-6A27.832,27.832,0,0,1-2871-135a27.832,27.832,0,0,1,10.9,2.2,27.926,27.926,0,0,1,8.9,6,27.917,27.917,0,0,1,6,8.9A27.824,27.824,0,0,1-2843-107a27.831,27.831,0,0,1-2.2,10.9,27.918,27.918,0,0,1-6,8.9,27.927,27.927,0,0,1-8.9,6A27.832,27.832,0,0,1-2871-79Zm0-54a26.03,26.03,0,0,0-26,26,26.03,26.03,0,0,0,26,26,26.03,26.03,0,0,0,26-26A26.03,26.03,0,0,0-2871-133Z" transform="translate(2907 143)" fill="#7f7f7f"/>
+  </g>
+  <rect id="矩形_2649" data-name="矩形 2649" width="72" height="72" fill="none"/>
+</svg>

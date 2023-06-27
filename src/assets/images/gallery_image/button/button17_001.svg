@@ -1,0 +1,23 @@
+<svg id="_14" data-name="14" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="72" height="72.5" viewBox="0 0 72 72.5">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#b4b4b4"/>
+    </linearGradient>
+    <filter id="路径_457" x="3.5" y="7.5" width="65" height="65" filterUnits="userSpaceOnUse">
+      <feOffset dy="4" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feFlood flood-opacity="0.502"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="组_766" data-name="组 766" transform="translate(-2488 -242)">
+    <rect id="矩形_849" data-name="矩形 849" width="58" height="58" rx="10" transform="translate(2495 249)" fill="#474747"/>
+    <g transform="matrix(1, 0, 0, 1, 2488, 242)" filter="url(#路径_457)">
+      <path id="路径_457-2" data-name="路径 457" d="M9,0H47a9,9,0,0,1,9,9V47a9,9,0,0,1-9,9H9a9,9,0,0,1-9-9V9A9,9,0,0,1,9,0Z" transform="translate(8 8)" fill="url(#linear-gradient)"/>
+    </g>
+    <rect id="矩形_854" data-name="矩形 854" width="42" height="42" rx="8" transform="translate(2503.5 257.5)" fill="#f1f1f1" stroke="#fff" stroke-width="0.5"/>
+  </g>
+  <rect id="矩形_2650" data-name="矩形 2650" width="72" height="72" fill="none"/>
+</svg>

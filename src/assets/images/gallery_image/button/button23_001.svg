@@ -1,0 +1,31 @@
+<svg id="_20" data-name="20" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="72" height="72" viewBox="0 0 72 72">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.502" y1="0.978" x2="0.502" y2="0.04" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0"/>
+      <stop offset="1" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-opacity="0.169"/>
+      <stop offset="1" stop-opacity="0.361"/>
+    </linearGradient>
+  </defs>
+  <rect id="矩形_2571" data-name="矩形 2571" width="37" height="56" rx="3" transform="translate(17.5 6.5)" fill="#474747"/>
+  <rect id="矩形_2572" data-name="矩形 2572" width="37" height="56" rx="3" transform="translate(17.5 6.5)" fill="#515b6f"/>
+  <g id="组_1413" data-name="组 1413" transform="translate(-3756.8 -1328.299)">
+    <path id="路径_797" data-name="路径 797" d="M1,0H23.4a1,1,0,0,1,1,1V45.8a1,1,0,0,1-1,1H1a1,1,0,0,1-1-1V1A1,1,0,0,1,1,0Z" transform="translate(3780.8 1339.299)"/>
+    <rect id="颜色层" width="22.401" height="44.802" transform="translate(3781.8 1340.299)" fill="#09f"/>
+    <rect id="矩形_926" data-name="矩形 926" width="22.401" height="0.896" transform="translate(3781.8 1348.587)" opacity="0.5" fill="url(#linear-gradient)"/>
+    <path id="路径_796" data-name="路径 796" d="M91.877,300.2H69.7V345H92.1V300.2ZM71.492,343.434V300.648H90.309V343.21Z" transform="translate(3712.1 1040.099)" opacity="0.5"/>
+    <g id="组_996" data-name="组 996" transform="translate(3791.208 1352.843)">
+      <ellipse id="椭圆_110" data-name="椭圆 110" cx="1.792" cy="1.792" rx="1.792" ry="1.792" transform="translate(0 0)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.6"/>
+      <line id="直线_7" data-name="直线 7" y2="3.36" transform="translate(1.792 23.521)" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+    </g>
+    <rect id="矩形_927" data-name="矩形 927" width="22" height="36" transform="translate(3782 1349)" opacity="0.34" fill="url(#linear-gradient-2)"/>
+  </g>
+  <path id="减去_26" data-name="减去 26" d="M34,56H3a3,3,0,0,1-3-3V3A3,3,0,0,1,3,0H34a3,3,0,0,1,3,3V53A3,3,0,0,1,34,56ZM4,1A3,3,0,0,0,1,4V52a3,3,0,0,0,3,3H33a3,3,0,0,0,3-3V4a3,3,0,0,0-3-3Z" transform="translate(17.5 6.5)" fill="url(#linear-gradient-3)"/>
+  <rect id="矩形_2686" data-name="矩形 2686" width="72" height="72" fill="none"/>
+</svg>

@@ -1,0 +1,40 @@
+<svg id="_43-3" data-name="43-3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="72" height="72" viewBox="0 0 72 72">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ededed"/>
+      <stop offset="1" stop-color="gray"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#c9c9c9"/>
+      <stop offset="1" stop-color="#5e5e5e"/>
+    </linearGradient>
+  </defs>
+  <rect id="矩形_849" data-name="矩形 849" width="58" height="58" rx="3" transform="translate(7 7)" fill="#474747"/>
+  <path id="减去_32" data-name="减去 32" d="M-2758-718h-52a3,3,0,0,1-3-3v-.89a2.992,2.992,0,0,0,3,2.889h52a3.005,3.005,0,0,0,3-2.988V-721A3,3,0,0,1-2758-718Zm3-54.007h0a3,3,0,0,0-3-2.993h-52a2.989,2.989,0,0,0-3,2.889l0-.89a3,3,0,0,1,3-3h52a3,3,0,0,1,3,3Z" transform="translate(2820 783)" opacity="0.18" fill="url(#linear-gradient)"/>
+  <rect id="矩形_2626" data-name="矩形 2626" width="52" height="52" rx="3" transform="translate(10 10)" fill="#222"/>
+  <rect id="矩形_2627" data-name="矩形 2627" width="50" height="50" rx="3" transform="translate(11 11)" fill="url(#linear-gradient-2)"/>
+  <path id="减去_33" data-name="减去 33" d="M-2763-772.007h0a3,3,0,0,0-3-2.993h-44a2.989,2.989,0,0,0-3,2.889l0-.89a3,3,0,0,1,3-3h44a3,3,0,0,1,3,3Z" transform="translate(2824 787)" fill="#fff"/>
+  <g id="组_1462" data-name="组 1462" transform="translate(36 -8.972) rotate(45)">
+    <circle id="椭圆_558" data-name="椭圆 558" cx="17" cy="17" r="17" transform="translate(14.8 14.8)" fill="url(#linear-gradient-3)"/>
+    <g id="未标题-1_画板_1" data-name="未标题-1_画板 1" transform="translate(15.8 15.475)">
+      <circle id="椭圆_563" data-name="椭圆 563" cx="16" cy="16" r="16" transform="translate(0 0.325)" fill="#2b2a2b"/>
+      <path id="路径_2485" data-name="路径 2485" d="M27.6,37a16.708,16.708,0,0,0,9.251,0V5.653a16.708,16.708,0,0,0-9.251,0Z" transform="translate(-16.226 -5)" fill="#939292"/>
+      <path id="路径_2486" data-name="路径 2486" d="M36.077,40.715H30.744a.514.514,0,0,1-.544-.544V17.044a.514.514,0,0,1,.544-.544h5.333a.514.514,0,0,1,.544.544V40.171A.514.514,0,0,1,36.077,40.715Z" transform="translate(-17.411 -10.242)" fill="#3a3a3a"/>
+      <path id="路径_2487" data-name="路径 2487" d="M29.469,10.931h5.877a.345.345,0,0,0,.327-.272l1.143-5.115A19.167,19.167,0,0,0,32.408,5,16.893,16.893,0,0,0,28,5.6l1.143,5.115A.367.367,0,0,0,29.469,10.931Z" transform="translate(-16.408 -5)" fill="#727272"/>
+      <path id="路径_2488" data-name="路径 2488" d="M28.2,62.806a15.737,15.737,0,0,0,8.6,0l-.925-1.088a.53.53,0,0,0-.49-.218H29.615a.665.665,0,0,0-.49.218Z" transform="translate(-16.499 -30.755)" fill="#727272"/>
+      <path id="路径_2489" data-name="路径 2489" d="M27.6,6.2l1.252,5.6V35.857a.416.416,0,0,1-.109.272L27.6,37.49Z" transform="translate(-16.226 -5.547)" fill="#3a3a3a"/>
+      <path id="路径_2490" data-name="路径 2490" d="M43.552,6.2,42.3,11.8V35.748a.878.878,0,0,0,.163.49l1.088,1.306Z" transform="translate(-22.926 -5.547)" fill="#3a3a3a"/>
+    </g>
+    <rect id="矩形_2630" data-name="矩形 2630" width="2" height="4" rx="1" transform="translate(30.8 16.8)" fill="#fff"/>
+  </g>
+  <text id="_3" data-name="3" transform="translate(36 17)" fill="#474747" font-size="5" font-family="PingFang SC Heavy, PingFang SC"><tspan x="-1.5" y="0">3</tspan></text>
+  <text id="_2" data-name="2" transform="translate(20 22)" fill="#474747" font-size="5" font-family="PingFang SC Heavy, PingFang SC"><tspan x="-1.5" y="0">2</tspan></text>
+  <text id="_1" data-name="1" transform="translate(15 38)" fill="#474747" font-size="5" font-family="PingFang SC Heavy, PingFang SC"><tspan x="-1.5" y="0">1</tspan></text>
+  <text id="_5" data-name="5" transform="translate(57 38)" fill="#474747" font-size="5" font-family="PingFang SC Heavy, PingFang SC"><tspan x="-1.5" y="0">5</tspan></text>
+  <text id="_4" data-name="4" transform="translate(52 22)" fill="#474747" font-size="5" font-family="PingFang SC Heavy, PingFang SC"><tspan x="-1.5" y="0">4</tspan></text>
+  <rect id="矩形_2707" data-name="矩形 2707" width="72" height="72" fill="none"/>
+</svg>

@@ -1,0 +1,45 @@
+<svg id="_25-1" data-name="25-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="72" height="72" viewBox="0 0 72 72">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#c6c6c6"/>
+      <stop offset="1" stop-color="#f2f2f2"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#202020"/>
+      <stop offset="0.82" stop-color="#494949"/>
+      <stop offset="1" stop-color="#323232"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="0.039" x2="0.021" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#efefef"/>
+      <stop offset="1" stop-color="#c8c8c8"/>
+    </linearGradient>
+    <filter id="矩形_845" x="4.4" y="23.4" width="23.2" height="32.2" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feFlood flood-opacity="0.702"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-4" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#eee"/>
+    </linearGradient>
+  </defs>
+  <g id="组_774" data-name="组 774" transform="translate(-1961 -360)">
+    <rect id="矩形_844" data-name="矩形 844" width="58" height="27" rx="1" transform="translate(1968 383)" fill="url(#linear-gradient)"/>
+    <rect id="矩形_846" data-name="矩形 846" width="56" height="25" rx="1" transform="translate(1969 384)" fill="url(#linear-gradient-2)"/>
+    <g id="组_772" data-name="组 772" transform="translate(-40)">
+      <g transform="matrix(1, 0, 0, 1, 2001, 360)" filter="url(#矩形_845)">
+        <rect id="矩形_845-2" data-name="矩形 845" width="14" height="23" rx="1" transform="translate(9 25)" stroke="#fff" stroke-width="0.2" fill="url(#linear-gradient-3)"/>
+      </g>
+      <g id="矩形_875" data-name="矩形 875" transform="translate(2011 386)" stroke="#fff" stroke-width="0.2" fill="url(#linear-gradient-4)">
+        <rect width="12" height="21" rx="1" stroke="none"/>
+        <rect x="0.1" y="0.1" width="11.8" height="20.8" rx="0.9" fill="none"/>
+      </g>
+      <rect id="矩形_847" data-name="矩形 847" width="15" height="4" rx="2" transform="translate(2019 389) rotate(90)" fill="#e90000"/>
+      <rect id="矩形_876" data-name="矩形 876" width="13" height="2" rx="1" transform="translate(2018 390) rotate(90)" fill="#fff" opacity="0.4"/>
+    </g>
+    <text id="OFF" transform="translate(2004 400)" fill="red" font-size="10" font-family="PingFang SC Medium, PingFang SC"><tspan x="-9.605" y="0">OFF</tspan></text>
+  </g>
+  <rect id="矩形_2661" data-name="矩形 2661" width="72" height="72" fill="none"/>
+</svg>

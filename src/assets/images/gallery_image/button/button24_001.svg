@@ -1,0 +1,63 @@
+<svg id="_21-1" data-name="21-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="72" height="72" viewBox="0 0 72 72">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.495" y1="1" x2="0.495" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#231815" stop-opacity="0.102"/>
+      <stop offset="0.6" stop-color="#231815"/>
+      <stop offset="0.73" stop-color="#211714" stop-opacity="0.949"/>
+      <stop offset="0.78" stop-color="#1a1210" stop-opacity="0.749"/>
+      <stop offset="0.81" stop-color="#0f0a09" stop-opacity="0.42"/>
+      <stop offset="0.84" stop-opacity="0"/>
+      <stop offset="0.89" stop-color="#120d0b" stop-opacity="0.529"/>
+      <stop offset="0.95" stop-color="#1f1512" stop-opacity="0.878"/>
+      <stop offset="1" stop-color="#231815"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.493" y1="1" x2="0.493" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#231815" stop-opacity="0"/>
+      <stop offset="0.68" stop-color="#231815"/>
+      <stop offset="0.74" stop-color="#1f1512" stop-opacity="0.878"/>
+      <stop offset="0.8" stop-color="#120d0b" stop-opacity="0.529"/>
+      <stop offset="0.85" stop-opacity="0"/>
+      <stop offset="1" stop-color="#231815"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="0.493" y1="1" x2="0.493" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff" stop-opacity="0.502"/>
+      <stop offset="0.45" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" x1="0.5" y1="0.999" x2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#231815" stop-opacity="0"/>
+      <stop offset="0.91" stop-color="#231815"/>
+      <stop offset="1" stop-color="#231815" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-5" x1="0.5" y1="1" x2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#231815" stop-opacity="0"/>
+      <stop offset="0.52" stop-color="#fff"/>
+      <stop offset="1" stop-color="#231815" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <g id="组_1467" data-name="组 1467" transform="translate(2499.209 840.028) rotate(180)">
+    <path id="路径_2287" data-name="路径 2287" d="M72.817,437.957A2.817,2.817,0,0,1,70,435.338V382.69a2.817,2.817,0,0,1,2.817-2.62H97.324A2.817,2.817,0,0,1,100,382.69v52.789a2.817,2.817,0,0,1-2.676,2.62Z" transform="translate(2379.209 394.93)" fill="#231815"/>
+    <g id="组_1310" data-name="组 1310" transform="translate(2449.209 775)" opacity="0.05">
+      <path id="路径_2288" data-name="路径 2288" d="M97.183,380.211a2.366,2.366,0,0,1,2.394,2.338v52.789a2.366,2.366,0,0,1-2.394,2.338H72.817a2.366,2.366,0,0,1-2.394-2.338V382.69a2.366,2.366,0,0,1,2.394-2.338H97.324m0-.282H72.817A2.817,2.817,0,0,0,70,382.69v52.789a2.817,2.817,0,0,0,2.817,2.62H97.324a2.817,2.817,0,0,0,2.676-2.62V382.69A2.817,2.817,0,0,0,97.324,380.07Z" transform="translate(-70 -380.07)" fill="#fff"/>
+    </g>
+    <g id="组_1311" data-name="组 1311" transform="translate(2449.631 775.281)" opacity="0.1">
+      <path id="路径_2289" data-name="路径 2289" d="M96.911,380.311a2.085,2.085,0,0,1,2.113,2.056v52.789a2.084,2.084,0,0,1-2.113,2.056H72.544a2.084,2.084,0,0,1-2.113-2.056V382.508a2.084,2.084,0,0,1,2.113-2.056H97.051m0-.282H72.544a2.366,2.366,0,0,0-2.394,2.338V435.3a2.366,2.366,0,0,0,2.394,2.338H97.051a2.366,2.366,0,0,0,2.394-2.338V382.508a2.366,2.366,0,0,0-2.394-2.338Z" transform="translate(-70.15 -380.17)" fill="#fff"/>
+    </g>
+    <g id="组_1312" data-name="组 1312" transform="translate(2449.913 775.563)" opacity="0.7">
+      <path id="路径_2290" data-name="路径 2290" d="M96.729,380.411a1.8,1.8,0,0,1,1.831,1.775v52.789a1.8,1.8,0,0,1-1.831,1.775H72.363a1.8,1.8,0,0,1-1.831-1.775V382.327a1.8,1.8,0,0,1,1.831-1.775H96.87m0-.282H72.363a2.084,2.084,0,0,0-2.113,2.056v52.789a2.084,2.084,0,0,0,2.113,2.056H96.87a2.084,2.084,0,0,0,2.113-2.056V382.327a2.084,2.084,0,0,0-2.113-2.056Z" transform="translate(-70.25 -380.27)" fill="#fff"/>
+    </g>
+    <path id="路径_2291" data-name="路径 2291" d="M96.547,380.32a1.8,1.8,0,0,1,1.831,1.775v52.789a1.8,1.8,0,0,1-1.831,1.775H72.181a1.8,1.8,0,0,1-1.831-1.775V382.236a1.8,1.8,0,0,1,1.831-1.775Z" transform="translate(2379.845 395.384)"/>
+    <path id="变色层" d="M96.129,380.55a1.155,1.155,0,0,1,1.183,1.127v52.789a1.155,1.155,0,0,1-1.183,1.127H71.763a1.155,1.155,0,0,1-1.183-1.127V381.818a1.155,1.155,0,0,1,1.183-1.127Z" transform="translate(2380.263 395.802)" fill="#08c408"/>
+    <path id="路径_2293" data-name="路径 2293" d="M96.129,380.559H71.763a1.155,1.155,0,0,0-1.183,1.127v52.789a1.155,1.155,0,0,0,1.183,1.127H96.27a1.155,1.155,0,0,0,1.183-1.127V381.826a1.155,1.155,0,0,0-1.324-1.268Zm-.789,53.916H72.467a.845.845,0,0,1-.845-.845v-51.1a.817.817,0,0,1,.845-.845H95.341a.845.845,0,0,1,.845.845v51.1a.845.845,0,0,1-.845.845Z" transform="translate(2380.263 395.794)" fill="url(#linear-gradient)"/>
+    <g id="组_1465" data-name="组 1465" transform="translate(2451.829 777.479)" opacity="0.8">
+      <path id="路径_2294" data-name="路径 2294" d="M71,432.894V381.8a.817.817,0,0,1,.845-.845H94.719a.845.845,0,0,1,.845.845v51.1a.845.845,0,0,1-.845.845H71.7A.845.845,0,0,1,71,432.894Z" transform="translate(-70.803 -380.95)" opacity="0.64" fill="url(#linear-gradient-2)"/>
+      <g id="组_1464" data-name="组 1464" transform="translate(0)">
+        <path id="路径_2295" data-name="路径 2295" d="M71,432.894V381.8a.817.817,0,0,1,.845-.845H94.719a.845.845,0,0,1,.845.845v51.1a.845.845,0,0,1-.845.845H71.7A.845.845,0,0,1,71,432.894Z" transform="translate(-70.803 -380.95)" opacity="0.3" fill="url(#linear-gradient-3)"/>
+        <rect id="矩形_2485" data-name="矩形 2485" width="24.62" height="19.127" transform="translate(0 9.353)" opacity="0.16" fill="url(#linear-gradient-4)"/>
+      </g>
+    </g>
+    <rect id="矩形_2486" data-name="矩形 2486" width="26.873" height="7.099" transform="translate(2450.702 781.93)" opacity="0.37" fill="url(#linear-gradient-5)"/>
+    <text id="OFF" transform="translate(2464.268 819.723) rotate(180)" fill="#fff" font-size="7" font-family="PingFang SC Heavy, PingFang SC" opacity="0.8"><tspan x="-6.787" y="0">OFF</tspan></text>
+    <text id="ON" transform="translate(2465.028 792.804) rotate(180)" fill="#fff" font-size="7" font-family="PingFang SC Heavy, PingFang SC" opacity="0.8"><tspan x="-5.274" y="0">ON</tspan></text>
+  </g>
+  <rect id="矩形_2689" data-name="矩形 2689" width="72" height="72" fill="none"/>
+</svg>

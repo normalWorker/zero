@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="34" height="70" viewBox="0 0 34 70">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #707070;
+        font-size: 50px;
+        font-family: PingFang SC Medium, PingFang SC;
+      }
+    </style>
+  </defs>
+  <text id="A" class="cls-1" transform="translate(17 53)"><tspan x="-16.425" y="0">A</tspan></text>
+</svg>

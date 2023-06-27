@@ -1,0 +1,32 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="72" height="72" viewBox="0 0 72 72">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f3f3f3"/>
+      <stop offset="1" stop-color="#e6e6e6"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#707070"/>
+      <stop offset="1" stop-color="#404040"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="0.5" y1="0.001" x2="0.5" y2="1.001" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ccc"/>
+      <stop offset="1" stop-color="#707070"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" x1="0.5" y1="0" x2="0.5" y2="0.999" xlink:href="#linear-gradient-2"/>
+  </defs>
+  <g id="_04" data-name="04" transform="translate(-15214 -2116)">
+    <rect id="矩形_837" data-name="矩形 837" width="72" height="72" transform="translate(15214 2116)" fill="none"/>
+    <g id="拟物-正常状态-方形按钮-07" transform="translate(15214 2117.4)">
+      <path id="路径_423" data-name="路径 423" d="M36,62.6h0a27.954,27.954,0,0,1-28-28H8a27.954,27.954,0,0,1,28-28h0a27.954,27.954,0,0,1,28,28h0A28.018,28.018,0,0,1,36,62.6Z" fill="url(#linear-gradient)"/>
+      <path id="路径_424" data-name="路径 424" d="M36,60.9h0A26.332,26.332,0,0,1,9.7,34.6h0A26.332,26.332,0,0,1,36,8.3h0A26.332,26.332,0,0,1,62.3,34.6h0A26.332,26.332,0,0,1,36,60.9Z" fill="url(#linear-gradient-2)"/>
+      <path id="路径_425" data-name="路径 425" d="M36,60.4h0A25.8,25.8,0,0,1,10.2,34.6h0A25.82,25.82,0,0,1,36,8.7h0A25.8,25.8,0,0,1,61.8,34.5h0A25.757,25.757,0,0,1,36,60.4Z" fill="url(#linear-gradient-3)"/>
+      <path id="路径_426" data-name="路径 426" d="M36,59h0A24.433,24.433,0,0,1,11.6,34.6h0A24.369,24.369,0,0,1,36,10.2h0A24.369,24.369,0,0,1,60.4,34.6h0A24.433,24.433,0,0,1,36,59Z" fill="url(#linear-gradient-4)"/>
+      <path class="shapeChangeFill" d="M36,58.3h0A23.686,23.686,0,0,1,12.3,34.6h0A23.686,23.686,0,0,1,36,10.9h0A23.686,23.686,0,0,1,59.7,34.6h0A23.686,23.686,0,0,1,36,58.3Z" fill="#2d8cf0"/>
+      <g id="组_752" data-name="组 752">
+        <path id="路径_428" data-name="路径 428" d="M59.7,34.6A23.686,23.686,0,0,0,36,10.9h0A23.686,23.686,0,0,0,12.3,34.6h0v.5A23.713,23.713,0,0,1,36,11.9h0A23.781,23.781,0,0,1,59.7,35.1v-.5Z" fill="#f0f8ff" opacity="0.6"/>
+      </g>
+      <path id="路径_429" data-name="路径 429" d="M36,58.3h0A23.781,23.781,0,0,1,12.3,35.1v.5h0A23.686,23.686,0,0,0,36,59.3h0A23.686,23.686,0,0,0,59.7,35.6h0v-.5A23.713,23.713,0,0,1,36,58.3Z" fill="#135aa3"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,42 @@
+<svg id="_29-1" data-name="29-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="72" height="72" viewBox="0 0 72 72">
+  <defs>
+    <filter id="矩形_1072" x="3.5" y="3.5" width="67" height="67" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="矩形_1073" x="2.5" y="2.5" width="67" height="67" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="组_1383" data-name="组 1383">
+    <g id="组_1225" data-name="组 1225" transform="translate(11729 22769)">
+      <g id="组_1225-2" data-name="组 1225" transform="translate(815 -13897)">
+        <g transform="matrix(1, 0, 0, 1, -12544, -8872)" filter="url(#矩形_1072)">
+          <rect id="矩形_1072-2" data-name="矩形 1072" width="58" height="58" rx="5" transform="translate(8 8)" fill="#5a5a5a"/>
+        </g>
+        <g transform="matrix(1, 0, 0, 1, -12544, -8872)" filter="url(#矩形_1073)">
+          <g id="矩形_1073-2" data-name="矩形 1073" transform="translate(7 7)" fill="#fff" stroke="#707070" stroke-width="1">
+            <rect width="58" height="58" rx="5" stroke="none"/>
+            <rect x="0.5" y="0.5" width="57" height="57" rx="4.5" fill="none"/>
+          </g>
+        </g>
+        <rect id="矩形_1074" data-name="矩形 1074" width="34" height="9" transform="translate(-12525 -8865)" fill="#707070"/>
+        <rect id="矩形_1076" data-name="矩形 1076" width="34" height="9" transform="translate(-12525 -8817)" fill="#707070"/>
+        <rect id="矩形_1075" data-name="矩形 1075" width="30" height="5" rx="2.5" transform="translate(-12523 -8863)" fill="red"/>
+        <rect id="矩形_1077" data-name="矩形 1077" width="30" height="5" rx="2.5" transform="translate(-12523 -8815)" fill="lime"/>
+        <text id="ON_OFF" data-name="ON/OFF" transform="translate(-12508 -8832)" fill="#515b6f" font-size="12" font-family="PingFang SC Medium, PingFang SC"><tspan x="-23.442" y="0">ON/OFF</tspan></text>
+        <rect id="矩形_1078" data-name="矩形 1078" width="27" height="3" rx="1.5" transform="translate(-12522 -8862)" fill="#fff" opacity="0.4"/>
+        <rect id="矩形_1079" data-name="矩形 1079" width="27" height="3" rx="1.5" transform="translate(-12522 -8814)" fill="#fff" opacity="0.8"/>
+        <rect id="矩形_2579" data-name="矩形 2579" width="34" height="9" transform="translate(-12525 -8817)" opacity="0.6"/>
+      </g>
+    </g>
+  </g>
+  <rect id="矩形_2671" data-name="矩形 2671" width="72" height="72" fill="none"/>
+</svg>

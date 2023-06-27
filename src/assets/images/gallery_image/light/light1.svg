@@ -1,0 +1,41 @@
+
+<svg id="组_1460" data-name="组 1460" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="72" height="72" viewBox="0 0 72 72">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" y1="1" x2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-opacity="0.051"/>
+      <stop offset="0.48" stop-color="#231815"/>
+      <stop offset="0.5" stop-color="#231815" stop-opacity="0.451"/>
+      <stop offset="1" stop-opacity="0.051"/>
+    </linearGradient>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="0.435" gradientTransform="translate(0 -0.074) scale(1 1.148)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff" stop-opacity="0.91"/>
+      <stop offset="0.491" stop-color="#fff" stop-opacity="0.69"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0.09"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-2" cx="0.5" cy="0.5" r="0.393" gradientTransform="translate(0 -0.147) scale(1 1.294)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff" stop-opacity="0.89"/>
+      <stop offset="0.402" stop-color="#fff" stop-opacity="0.718"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0.11"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-3" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#dadada" stop-opacity="0"/>
+      <stop offset="0.736" stop-color="#c3c3c3" stop-opacity="0.078"/>
+      <stop offset="1" stop-opacity="0.749"/>
+    </radialGradient>
+  </defs>
+  <g id="组_1459" data-name="组 1459" transform="translate(-611 -584)">
+    <ellipse id="椭圆_530" data-name="椭圆 530" cx="27.479" cy="27.485" rx="27.479" ry="27.485" transform="translate(620 592.78)" fill="#fff"/>
+    <path id="路径_732" data-name="路径 732" d="M357.48,569.75a27.485,27.485,0,1,0,27.479,27.485A27.482,27.482,0,0,0,357.48,569.75Zm0,51.534a24.049,24.049,0,1,1,24.044-24.049A24.047,24.047,0,0,1,357.48,621.283Z" transform="translate(290.041 22.999)" fill="#fff"/>
+    <path id="路径_733" data-name="路径 733" d="M357.48,569.75a27.485,27.485,0,1,0,27.479,27.485A27.482,27.482,0,0,0,357.48,569.75Zm0,51.534a24.049,24.049,0,1,1,24.044-24.049A24.047,24.047,0,0,1,357.48,621.283Z" transform="translate(290.041 22.999)" fill="url(#linear-gradient)"/>
+    <g id="组_1" data-name="组 1" transform="translate(624.818 596.871)">
+      <g id="组_874" data-name="组 874" transform="translate(0 0)">
+        <path id="路径_731" data-name="路径 731" d="M355.3,571a24.055,24.055,0,1,0,24.051,24.055A24.053,24.053,0,0,0,355.3,571Zm0,47.423a23.368,23.368,0,1,1,23.364-23.368A23.366,23.366,0,0,1,355.3,618.423Z" transform="translate(-332.598 -571.693)" opacity="0.75"/>
+        <circle class="shapeChangeFill" cx="22.725" cy="22.725" r="22.725" transform="translate(0 0.812)" fill="#009a00"/>
+        <ellipse id="椭圆_71" data-name="椭圆 71" cx="17.855" cy="11.768" rx="17.855" ry="11.768" transform="translate(4.87)" fill="url(#radial-gradient)"/>
+        <ellipse id="椭圆_72" data-name="椭圆 72" cx="16.232" cy="8.116" rx="16.232" ry="8.116" transform="translate(6.493 29.218)" opacity="0.55" fill="url(#radial-gradient-2)"/>
+      </g>
+      <circle id="椭圆_73" data-name="椭圆 73" cx="22.725" cy="22.725" r="22.725" transform="translate(0 0.812)" opacity="0.23" fill="url(#radial-gradient-3)"/>
+    </g>
+  </g>
+  <rect id="矩形_2560" data-name="矩形 2560" width="72" height="72" fill="none"/>
+</svg>

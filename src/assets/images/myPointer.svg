@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="200" height="200" viewBox="0 0 200 200">
+  <defs>
+    <clipPath id="clip-自定义大小_8">
+      <rect width="200" height="200"/>
+    </clipPath>
+  </defs>
+  <g id="自定义大小_8" data-name="自定义大小 – 8" clip-path="url(#clip-自定义大小_8)">
+    <rect width="200" height="200" fill="transparent"/>
+    <g id="组_6" data-name="组 6">
+      <ellipse id="椭圆_8" data-name="椭圆 8" cx="4.807" cy="4.807" rx="4.807" ry="4.807" transform="translate(95.15 95.148)" fill="none" stroke="#020202" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.4"/>
+      <path id="路径_1674" data-name="路径 1674" d="M143.467,23.65,67.409,70.418a11.925,11.925,0,0,1-12.6,11.18,11.739,11.739,0,0,1-4.323-1.081L36.963,88.976,29.1,73.772l14.086-6.186A12.447,12.447,0,0,1,57.5,57.263a12.856,12.856,0,0,1,4.845,1.863ZM60.627,66.468h0A5.666,5.666,0,0,0,50.49,71.536C53.881,77.722,64.018,72.654,60.627,66.468Z" transform="translate(44.66 30.357)" fill="#3e3a39"/>
+      <path id="路径_1675" data-name="路径 1675" d="M43.466,33A10.136,10.136,0,1,1,33.33,43.136h0A10.1,10.1,0,0,1,43.28,33Z" transform="translate(56.193 55.851)"/>
+      <path id="路径_1676" data-name="路径 1676" d="M42.241,33.32a9.018,9.018,0,1,1,0,18.036,8.422,8.422,0,0,1-8.459-8.422v-.6a8.832,8.832,0,0,1,8.459-9.018Z" transform="translate(57.418 56.723)" fill="#b1b1b2"/>
+      <path id="路径_1677" data-name="路径 1677" d="M40.092,33.48a6.162,6.162,0,1,1-6.162,6.133,6.569,6.569,0,0,1,6.162-6.133Z" transform="translate(59.633 59.209)" fill="#d5d5d6"/>
+      <path id="路径_1678" data-name="路径 1678" d="M40.576,33.48a6.186,6.186,0,1,1-6.186,6.186h0a6.223,6.223,0,0,1,6.186-6.186Z" transform="translate(59.083 57.159)" fill="#e6e6e6"/>
+      <path id="路径_1679" data-name="路径 1679" d="M39.5,35.29c2.273,0,4.509,1.118,4.509,2.236s-2.236,2.832-4.509,2.832S34.99,39.24,34.99,38.122C35.027,36.408,37.263,35.29,39.5,35.29Z" transform="translate(60.719 62.094)" fill="#f7f8f8"/>
+      <circle id="椭圆_13" data-name="椭圆 13" cx="99.956" cy="99.956" r="99.956" transform="translate(0.002)" fill="none"/>
+    </g>
+  </g>
+</svg>

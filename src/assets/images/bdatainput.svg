@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <style>
+      .cls-1, .cls-4 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        stroke-width: 2px;
+      }
+
+      .cls-2, .cls-4 {
+        stroke: #707070;
+      }
+
+      .cls-3 {
+        fill: #e6e6e6;
+        font-size: 8px;
+        font-family: PingFang SC Bold, PingFang SC;
+      }
+
+      .cls-4 {
+        stroke-linecap: round;
+      }
+
+      .cls-5 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="组_1355" data-name="组 1355" transform="translate(17469 21807)">
+    <rect id="矩形_756" data-name="矩形 756" class="cls-1" width="32" height="32" transform="translate(-17469 -21807)"/>
+    <g id="组_1188" data-name="组 1188" transform="translate(33 141)">
+      <g id="矩形_1038" data-name="矩形 1038" class="cls-2" transform="translate(-17502 -21940)">
+        <rect class="cls-5" width="32" height="16" rx="3"/>
+        <rect class="cls-1" x="1" y="1" width="30" height="14" rx="2"/>
+      </g>
+      <text id="_123" data-name="123" class="cls-3" transform="translate(-17488 -21929)"><tspan x="-7.2" y="0">123</tspan></text>
+      <line id="直线_122" data-name="直线 122" class="cls-4" y2="7" transform="translate(-17496.5 -21935.479)"/>
+    </g>
+  </g>
+</svg>

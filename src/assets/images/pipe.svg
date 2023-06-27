@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="29.478" height="26.023" viewBox="0 0 29.478 26.023">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke-linecap: round;
+      }
+
+      .cls-1 {
+        stroke: #ccc;
+        stroke-width: 2px;
+      }
+
+      .cls-2 {
+        stroke: #707070;
+        stroke-width: 4px;
+        stroke-dasharray: 4 6;
+      }
+    </style>
+  </defs>
+  <g id="组_1376" data-name="组 1376" transform="translate(-7899 -1152)">
+    <line id="直线_50" data-name="直线 50" class="cls-1" y2="27.478" transform="translate(7927.478 1153) rotate(90)"/>
+    <line id="直线_51" data-name="直线 51" class="cls-1" y2="27.478" transform="translate(7927.478 1177.023) rotate(90)"/>
+    <path id="路径_264" data-name="路径 264" class="cls-2" d="M330.945,988.2h24.66" transform="translate(7570.83 177.005)"/>
+  </g>
+</svg>

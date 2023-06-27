@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="289" height="149" viewBox="0 0 435 223">
+  <g id="组_1562" data-name="组 1562" transform="translate(18065 -11696)">
+    <rect id="矩形_1220" data-name="矩形 1220" width="435" height="223" transform="translate(-18065 11696)" fill="none"/>
+    <g id="组_1559" data-name="组 1559" transform="translate(-17930.252 11731.806)">
+      <g id="组_1321" data-name="组 1321" transform="translate(0 0)">
+        <ellipse id="椭圆_182" data-name="椭圆 182" cx="81.164" cy="81.163" rx="81.164" ry="81.163" fill="#5ad8a6"/>
+        <path id="路径_862" data-name="路径 862" d="M80.8,83.235V2C43.538,2.508,12.4,27.386,2.7,60.9Z" transform="translate(0.364 -2)" fill="#e8684a"/>
+        <path id="路径_863" data-name="路径 863" d="M5.163,13.6A81.4,81.4,0,0,0,2.1,35.94c0,17.263,5.1,33,14.293,45.695L83.265,35.94Z" transform="translate(-2.099 45.295)" fill="#f6bd16"/>
+        <path id="路径_864" data-name="路径 864" d="M40.122,92.635C52.884,62.679,71.771,18,71.771,18L4.9,63.695A81.573,81.573,0,0,0,40.122,92.635Z" transform="translate(9.393 63.234)" fill="#5d7092"/>
+      </g>
+      <path id="交叉_10" data-name="交叉 10" d="M0,81.162V0H0A81.163,81.163,0,0,1,81.165,81.162Z" transform="translate(81.165 0)" fill="#478de9"/>
+    </g>
+  </g>
+</svg>

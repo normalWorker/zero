@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="115" viewBox="0 0 40 115">
+  <g id="组_1534" data-name="组 1534" transform="translate(19754 17076)">
+    <rect id="矩形_1036" data-name="矩形 1036" width="22" height="44" transform="translate(-19736 -17008)" fill="#8cc2ff"/>
+    <g id="矩形_1035" data-name="矩形 1035" transform="translate(-19736 -17072)" fill="none" stroke="#707070" stroke-width="1">
+      <rect width="22" height="108" stroke="none"/>
+      <rect x="0.5" y="0.5" width="21" height="107" fill="none"/>
+    </g>
+    <line id="直线_110" data-name="直线 110" x1="5.373" transform="translate(-19741.164 -17071.521)" fill="none" stroke="#707070" stroke-width="1"/>
+    <line id="直线_111" data-name="直线 111" x1="5.373" transform="translate(-19741.164 -17050.029)" fill="none" stroke="#707070" stroke-width="1"/>
+    <line id="直线_112" data-name="直线 112" x1="5.373" transform="translate(-19741.164 -17028.537)" fill="none" stroke="#707070" stroke-width="1"/>
+    <line id="直线_113" data-name="直线 113" x1="5.373" transform="translate(-19741.164 -17007.641)" fill="none" stroke="#707070" stroke-width="1"/>
+    <line id="直线_114" data-name="直线 114" x1="5.373" transform="translate(-19741.164 -16986.148)" fill="none" stroke="#707070" stroke-width="1"/>
+    <line id="直线_115" data-name="直线 115" x1="5.373" transform="translate(-19741.164 -16964.656)" fill="none" stroke="#707070" stroke-width="1"/>
+    <line id="直线_116" data-name="直线 116" x1="2.687" transform="translate(-19738.477 -17060.775)" fill="none" stroke="#707070" stroke-width="1"/>
+    <line id="直线_117" data-name="直线 117" x1="2.687" transform="translate(-19738.477 -17039.283)" fill="none" stroke="#707070" stroke-width="1"/>
+    <line id="直线_118" data-name="直线 118" x1="2.687" transform="translate(-19738.477 -17018.387)" fill="none" stroke="#707070" stroke-width="1"/>
+    <line id="直线_119" data-name="直线 119" x1="2.687" transform="translate(-19738.477 -16996.895)" fill="none" stroke="#707070" stroke-width="1"/>
+    <line id="直线_120" data-name="直线 120" x1="2.687" transform="translate(-19738.477 -16975.402)" fill="none" stroke="#707070" stroke-width="1"/>
+    <text id="_100" data-name="100" transform="translate(-19743 -17070)" fill="#515b6f" font-size="6" font-family="PingFang SC Medium, PingFang SC"><tspan x="-10.8" y="0">100</tspan></text>
+    <text id="_80" data-name="80" transform="translate(-19743 -17049)" fill="#515b6f" font-size="6" font-family="PingFang SC Medium, PingFang SC"><tspan x="-7.2" y="0">80</tspan></text>
+    <text id="_60" data-name="60" transform="translate(-19743 -17027)" fill="#515b6f" font-size="6" font-family="PingFang SC Medium, PingFang SC"><tspan x="-7.2" y="0">60</tspan></text>
+    <text id="_40" data-name="40" transform="translate(-19743 -17006)" fill="#515b6f" font-size="6" font-family="PingFang SC Medium, PingFang SC"><tspan x="-7.2" y="0">40</tspan></text>
+    <text id="_40_" data-name="40%" transform="translate(-19718 -16984)" fill="#fff" font-size="6" font-family="PingFang SC Medium, PingFang SC"><tspan x="-13.02" y="0">40%</tspan></text>
+    <text id="_20" data-name="20" transform="translate(-19743 -16984)" fill="#515b6f" font-size="6" font-family="PingFang SC Medium, PingFang SC"><tspan x="-7.2" y="0">20</tspan></text>
+    <text id="_0" data-name="0" transform="translate(-19743 -16963)" fill="#515b6f" font-size="6" font-family="PingFang SC Medium, PingFang SC"><tspan x="-3.6" y="0">0</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32.001" viewBox="0 0 32 32.001">
+  <defs>
+    <style>
+      .cls-1, .cls-4, .cls-5 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #ccc;
+      }
+
+      .cls-3 {
+        fill: #707070;
+      }
+
+      .cls-4 {
+        stroke: #707070;
+      }
+
+      .cls-4, .cls-5 {
+        stroke-linecap: round;
+      }
+
+      .cls-5 {
+        stroke: #ccc;
+      }
+    </style>
+  </defs>
+  <g id="组_1374" data-name="组 1374" transform="translate(16204 21237.001)">
+    <rect id="矩形_756" data-name="矩形 756" class="cls-1" width="32" height="32" transform="translate(-16204 -21237)"/>
+    <g id="组_1270" data-name="组 1270" transform="translate(-12.604 58.043)">
+      <path id="温度计" class="cls-2" d="M310.272,61.525V47.019a4.352,4.352,0,1,0-8.7,0V61.525a7.253,7.253,0,1,0,8.7,0ZM305.92,73.13a5.82,5.82,0,0,1-5.8-5.8,5.732,5.732,0,0,1,2.9-5v-15.3a2.9,2.9,0,1,1,5.8,0v15.3a5.79,5.79,0,0,1-2.9,10.807Z" transform="translate(-16478.953 -21337.711)"/>
+      <path id="温度计-2" data-name="温度计" class="cls-3" d="M307.2,62.648V52.663a1.451,1.451,0,1,0-2.9,0v9.985a4.365,4.365,0,1,0,5.8,4.134A4.489,4.489,0,0,0,307.2,62.648Z" transform="translate(-16478.779 -21337.166)"/>
+      <path id="路径_802" data-name="路径 802" class="cls-4" d="M-16053.229-21235.135h-5.633" transform="translate(-127.057 -58.267)"/>
+      <path id="路径_803" data-name="路径 803" class="cls-5" d="M-16056.048-21235.135h-2.816" transform="translate(-124.238 -55.076)"/>
+      <path id="路径_804" data-name="路径 804" class="cls-4" d="M-16053.229-21235.135h-5.633" transform="translate(-127.057 -51.885)"/>
+      <path id="路径_805" data-name="路径 805" class="cls-5" d="M-16056.048-21235.135h-2.816" transform="translate(-124.238 -48.693)"/>
+      <path id="路径_806" data-name="路径 806" class="cls-4" d="M-16053.229-21235.135h-5.633" transform="translate(-127.057 -45.501)"/>
+      <path id="路径_810" data-name="路径 810" class="cls-5" d="M-16056.048-21235.135h-2.816" transform="translate(-124.238 -42.31)"/>
+    </g>
+  </g>
+</svg>

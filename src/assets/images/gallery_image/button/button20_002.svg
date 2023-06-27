@@ -1,0 +1,74 @@
+<svg id="_17-1" data-name="17-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="72" height="72" viewBox="0 0 72 72">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#e6e6e6"/>
+      <stop offset="1" stop-color="#f8f8f8"/>
+    </linearGradient>
+    <filter id="减去_6" x="24.25" y="3.25" width="27.5" height="66.5" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="0.25" result="blur"/>
+      <feFlood flood-opacity="0.502"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-2" x1="0.5" y1="0.867" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#eee"/>
+      <stop offset="0.112" stop-color="#e8e8e8"/>
+      <stop offset="1" stop-color="#666"/>
+    </linearGradient>
+    <filter id="矩形_866" x="24" y="4.5" width="28" height="67" filterUnits="userSpaceOnUse">
+      <feOffset dy="1.5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-2"/>
+      <feFlood flood-opacity="0.702"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-3" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ececec"/>
+      <stop offset="0.948" stop-color="#f4f4f4"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <filter id="减去_7" x="25.5" y="4" width="25" height="13" filterUnits="userSpaceOnUse">
+      <feOffset dy="-0.5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="0.5" result="blur-3"/>
+      <feFlood flood-opacity="0.702"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="组_769" data-name="组 769">
+    <g id="矩形_844" data-name="矩形 844" transform="translate(24 3)" stroke="#fff" stroke-width="0.2" fill="url(#linear-gradient)">
+      <rect width="28" height="67" rx="1" stroke="none"/>
+      <rect x="0.1" y="0.1" width="27.8" height="66.8" rx="0.9" fill="none"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#减去_6)">
+      <path id="减去_6-2" data-name="减去 6" d="M25,65H1a1,1,0,0,1-1-1V1A1,1,0,0,1,1,0H25a1,1,0,0,1,1,1V64A1,1,0,0,1,25,65ZM2,1A1,1,0,0,0,1,2V63a1,1,0,0,0,1,1H24a1,1,0,0,0,1-1V2a1,1,0,0,0-1-1Z" transform="translate(25 4)" fill="#3e3e3e"/>
+    </g>
+    <rect id="矩形_865" data-name="矩形 865" width="24" height="63" rx="1" transform="translate(26 5)" fill="#8c8c8c"/>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#矩形_866)">
+      <g id="矩形_866-2" data-name="矩形 866" transform="translate(49 67) rotate(180)" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.2" fill="url(#linear-gradient-2)">
+        <rect width="22" height="61" rx="1" stroke="none"/>
+        <rect x="0.1" y="0.1" width="21.8" height="60.8" rx="0.9" fill="none"/>
+      </g>
+    </g>
+    <g id="矩形_869" data-name="矩形 869" transform="translate(49 67) rotate(180)" fill="#fff" stroke="#f7f7f7" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.2">
+      <rect width="22" height="53" rx="2" stroke="none"/>
+      <rect x="0.1" y="0.1" width="21.8" height="52.8" rx="1.9" fill="none"/>
+    </g>
+    <rect id="矩形_870" data-name="矩形 870" width="22" height="23" rx="1" transform="translate(27 14)" fill="url(#linear-gradient-3)"/>
+    <g id="矩形_871" data-name="矩形 871" transform="translate(27 6)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.2">
+      <rect width="22" height="61" rx="1" stroke="none"/>
+      <rect x="0.1" y="0.1" width="21.8" height="60.8" rx="0.9" fill="none"/>
+    </g>
+    <text id="OFF" transform="translate(38 25.005)" fill="#515b6f" font-size="8" font-family="PingFang SC Heavy, PingFang SC"><tspan x="-7.756" y="0">OFF</tspan></text>
+    <text id="ON" transform="translate(38 54.716)" fill="#08c408" font-size="8" font-family="PingFang SC Heavy, PingFang SC"><tspan x="-6.028" y="0">ON</tspan></text>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#减去_7)">
+      <g id="减去_7-2" data-name="减去 7" transform="translate(49 72) rotate(180)" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M21,66H1a1,1,0,0,1-1-1V56.09A2,2,0,0,0,2,58H20a2,2,0,0,0,2-2v9A1,1,0,0,1,21,66Z" stroke="none"/>
+        <path d="M 20.99970245361328 65.84970092773438 C 21.46834182739258 65.84970092773438 21.84960174560547 65.46844482421875 21.84960174560547 64.99980163574219 L 21.84960174560547 57.09428024291992 C 21.47465515136719 57.72560501098633 20.78582382202148 58.14960098266602 19.99980163574219 58.14960098266602 L 1.999801635742188 58.14960098266602 C 1.214531183242798 58.14960098266602 0.5258389711380005 57.73069381713867 0.1500016301870346 57.09936141967773 L 0.1500016301870346 64.99980163574219 C 0.1500016301870346 65.46844482421875 0.5312616229057312 65.84970092773438 0.9999016523361206 65.84970092773438 L 20.99970245361328 65.84970092773438 M 20.99970245361328 65.99970245361328 L 0.9999016523361206 65.99970245361328 C 0.4485516250133514 65.99970245361328 1.635742137295892e-06 65.55115509033203 1.635742137295892e-06 64.99980163574219 L 1.635742137295892e-06 56.08984375 C 0.04965163394808769 57.16071319580078 0.9271916151046753 57.99960327148438 1.999801635742188 57.99960327148438 L 19.99980163574219 57.99960327148438 C 21.10249137878418 57.99960327148438 21.99960136413574 57.10249328613281 21.99960136413574 55.99980163574219 L 21.99960136413574 64.99980163574219 C 21.99960136413574 65.55115509033203 21.55105209350586 65.99970245361328 20.99970245361328 65.99970245361328 Z" stroke="none" fill="#fff"/>
+      </g>
+    </g>
+    <rect id="矩形_874" data-name="矩形 874" width="20" height="0.5" rx="0.25" transform="translate(28 14)" fill="#fff" opacity="0.5"/>
+  </g>
+  <rect id="矩形_2681" data-name="矩形 2681" width="72" height="72" fill="none"/>
+</svg>

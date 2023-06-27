@@ -1,0 +1,81 @@
+
+<svg id="_07" data-name="07" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="72" height="74.331" viewBox="0 0 72 74.331">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.054" cy="0.043" r="0.903" gradientTransform="translate(0)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="0.98" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="变色层" x="2.168" y="6.167" width="68.164" height="68.164" filterUnits="userSpaceOnUse">
+      <feOffset dy="4" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.702"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient" x1="0.5" y1="1" x2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="0.238" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="0.894" stop-color="#fff" stop-opacity="0.6"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-opacity="0"/>
+      <stop offset="1" stop-opacity="0.349"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="-1.618" y1="0.358" x2="3.3" y2="0.625" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-opacity="0.4"/>
+      <stop offset="1" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" x1="1" y1="0.5" x2="0" y2="0.5" xlink:href="#linear-gradient-3"/>
+    <linearGradient id="linear-gradient-5" x1="0.5" y1="1" x2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-opacity="0"/>
+      <stop offset="1" stop-opacity="0.302"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-7" x1="1" y1="0.5" x2="0" y2="0.5" xlink:href="#linear-gradient-5"/>
+    <linearGradient id="linear-gradient-8" x1="0.993" y1="-1.466" x2="0.096" y2="2.512" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-9" x1="-5.475" y1="-0.006" x2="3.739" y2="0.205" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="0.419" stop-color="#fff" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <radialGradient id="radial-gradient-2" cx="0.5" cy="0.5" r="1.109" gradientTransform="translate(0 0)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="0.42" stop-opacity="0.133"/>
+      <stop offset="0.539" stop-opacity="0.188"/>
+      <stop offset="1" stop-opacity="0.231"/>
+    </radialGradient>
+  </defs>
+  <g id="组_1556" data-name="组 1556">
+    <g id="组_1396" data-name="组 1396" transform="translate(-2026 -501)">
+      <g id="组_1395" data-name="组 1395" transform="translate(377 167)">
+        <rect id="矩形_2538" data-name="矩形 2538" width="56.934" height="56.934" transform="translate(1656.783 341.783)" fill="#515b6f"/>
+        <g id="矩形_2539" data-name="矩形 2539" transform="translate(1657.27 342.27)" fill="#c6c6c6" stroke="#eee" stroke-width="0.1">
+          <rect width="55.961" height="55.961" stroke="none"/>
+          <rect x="0.05" y="0.05" width="55.861" height="55.861" fill="none"/>
+        </g>
+        <rect id="矩形_2540" data-name="矩形 2540" width="55.961" height="55.961" transform="translate(1657.27 342.27)" fill="url(#radial-gradient)"/>
+        <g id="矩形_2541" data-name="矩形 2541" transform="translate(1659.3 344.3)" fill="#12151a" stroke="#707070" stroke-width="0.2">
+          <rect width="51.8" height="51.8" rx="0.5" stroke="none"/>
+          <rect x="-0.1" y="-0.1" width="52" height="52" rx="0.6" fill="none"/>
+        </g>
+        <g transform="matrix(1, 0, 0, 1, 1649, 334)" filter="url(#变色层)">
+          <rect class="shapeChangeFill" data-name="变色层" width="50.164" height="50.164" transform="translate(11.17 11.17)" fill="#09f"/>
+        </g>
+        <path id="路径_2440" data-name="路径 2440" d="M12,10.5V60.664l4.719-4.719V15.219Z" transform="translate(1648.168 334.667)" opacity="0.89" fill="url(#linear-gradient)"/>
+        <path id="路径_2441" data-name="路径 2441" d="M57.445,54.8H16.719L12,59.519H62.164Z" transform="translate(1648.168 335.812)" fill="url(#linear-gradient-2)"/>
+        <path id="路径_2442" data-name="路径 2442" d="M56.3,15.219V55.842l4.719,4.821V10.5Z" transform="translate(1649.313 334.667)" fill="url(#linear-gradient-3)"/>
+        <path id="路径_2443" data-name="路径 2443" d="M56.3,15.219V55.842l4.719,4.821V10.5Z" transform="translate(1649.313 334.667)" opacity="0.5" fill="url(#linear-gradient-4)"/>
+        <path id="路径_2444" data-name="路径 2444" d="M57.445,15.219,62.164,10.5H12l4.719,4.719Z" transform="translate(1648.168 334.667)" fill="url(#linear-gradient-5)"/>
+        <path id="路径_2445" data-name="路径 2445" d="M57.445,15.321,62.164,10.5H12l4.719,4.821Z" transform="translate(1648.168 334.667)" opacity="0.3" fill="url(#linear-gradient-5)"/>
+        <path id="路径_2446" data-name="路径 2446" d="M57.445,15.321,62.164,10.5H12l4.719,4.821Z" transform="translate(1648.168 334.667)" opacity="0.3" fill="url(#linear-gradient-7)"/>
+        <path id="路径_2447" data-name="路径 2447" d="M61.032,10.5l-4.206,4.309H16.1l.513.513H57.339L62.058,10.5Z" transform="translate(1648.274 334.667)" opacity="0.87" fill="url(#linear-gradient-8)"/>
+        <path id="路径_2449" data-name="路径 2449" d="M12,11.526l4.309,4.206V56.458l.513-.513V15.219L12,10.5Z" transform="translate(1648.168 334.667)" opacity="0.64" fill="url(#linear-gradient-9)"/>
+        <rect id="矩形_2545" data-name="矩形 2545" width="40.726" height="40.726" transform="translate(1664.887 349.886)" opacity="0.61" fill="url(#radial-gradient-2)"/>
+      </g>
+    </g>
+  </g>
+  <rect id="矩形_2638" data-name="矩形 2638" width="72" height="72" fill="none"/>
+</svg>

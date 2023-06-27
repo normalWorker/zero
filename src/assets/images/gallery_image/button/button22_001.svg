@@ -1,0 +1,26 @@
+<svg id="_19-1" data-name="19-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="72" height="72" viewBox="0 0 72 72">
+  <defs>
+    <linearGradient id="linear-gradient" x1="1" y1="1" x2="0.021" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="0.095" stop-color="#eee"/>
+      <stop offset="0.293" stop-color="#fff"/>
+      <stop offset="0.817" stop-color="#fff"/>
+      <stop offset="0.96" stop-color="#eee"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f1f1f1"/>
+      <stop offset="0.053" stop-color="#fff"/>
+      <stop offset="1" stop-color="#c3c3c3"/>
+    </linearGradient>
+  </defs>
+  <rect id="矩形_861" data-name="矩形 861" width="28" height="67" rx="5" transform="translate(22 2)" fill="#474747"/>
+  <rect id="矩形_864" data-name="矩形 864" width="26" height="65" rx="4" transform="translate(23 3)" fill="url(#linear-gradient)"/>
+  <path id="路径_456" data-name="路径 456" d="M3.4,0H21.266a3.692,3.692,0,0,1,3.4,3.926V49.074A3.692,3.692,0,0,1,21.266,53H3.4A3.692,3.692,0,0,1,0,49.074V3.926A3.692,3.692,0,0,1,3.4,0Z" transform="translate(23.5 3.311)" stroke="#fff" stroke-width="0.5" fill="url(#linear-gradient-2)"/>
+  <g id="椭圆_60" data-name="椭圆 60" transform="translate(32 44)" fill="none" stroke="#515b6f" stroke-width="1.5">
+    <circle cx="4" cy="4" r="4" stroke="none"/>
+    <circle cx="4" cy="4" r="3.25" fill="none"/>
+  </g>
+  <rect id="矩形_863" data-name="矩形 863" width="10" height="2" rx="1" transform="translate(31 9)" fill="#515b6f"/>
+  <rect id="矩形_2685" data-name="矩形 2685" width="72" height="72" fill="none"/>
+</svg>

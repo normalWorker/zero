@@ -1,0 +1,28 @@
+<svg id="_13" data-name="13" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="72" height="72.5" viewBox="0 0 72 72.5">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fefefe"/>
+      <stop offset="1" stop-color="#b4b4b4"/>
+    </linearGradient>
+    <filter id="矩形_849" x="3.5" y="7.5" width="65" height="65" filterUnits="userSpaceOnUse">
+      <feOffset dy="4" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feFlood flood-opacity="0.502"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="组_776" data-name="组 776">
+    <g id="组_766" data-name="组 766" transform="translate(-2488 -242)">
+      <rect id="矩形_849-2" data-name="矩形 849" width="58" height="58" rx="29" transform="translate(2495 249)" fill="#474747"/>
+      <rect id="矩形_854" data-name="矩形 854" width="42" height="42" rx="21" transform="translate(2503.5 257.5)" fill="#f1f1f1" stroke="#fff" stroke-width="0.5"/>
+    </g>
+    <g id="组_775" data-name="组 775" transform="translate(-2486.716 -240.716)">
+      <g transform="matrix(1, 0, 0, 1, 2486.72, 240.72)" filter="url(#矩形_849)">
+        <rect id="矩形_849-3" data-name="矩形 849" width="56" height="56" rx="28" transform="translate(8 8)" fill="url(#linear-gradient)"/>
+      </g>
+      <rect id="矩形_854-2" data-name="矩形 854" width="40.693" height="40.693" rx="20.346" transform="translate(2502.831 256.831)" fill="#f1f1f1" stroke="#fff" stroke-width="0.5"/>
+    </g>
+  </g>
+  <rect id="矩形_2648" data-name="矩形 2648" width="72" height="72" fill="none"/>
+</svg>

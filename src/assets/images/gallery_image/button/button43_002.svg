@@ -1,0 +1,81 @@
+<svg id="_40" data-name="40" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="72" height="72" viewBox="0 0 72 72" style="transform:rotate(90deg);">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#707070"/>
+      <stop offset="1" stop-color="#474747"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ededed"/>
+      <stop offset="1" stop-color="#707070"/>
+    </linearGradient>
+    <filter id="椭圆_113" x="4.5" y="8.5" width="63" height="63" filterUnits="userSpaceOnUse">
+      <feOffset dy="4" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feFlood flood-opacity="0.502"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-3" x1="0.5" y1="1" x2="0.5" y2="-0.005" gradientUnits="objectBoundingBox">
+      <stop offset="0"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" x1="0.5" y1="-0.002" x2="0.5" y2="0.998" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ddd" stop-opacity="0.059"/>
+      <stop offset="1" stop-opacity="0.702"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-5" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff" stop-opacity="0.459"/>
+      <stop offset="1" stop-opacity="0.388"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-6" x1="-5.812" y1="-17.337" x2="-5.568" y2="-15.595" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="0.1" stop-color="#fff" stop-opacity="0.929"/>
+      <stop offset="0.31" stop-color="#fff" stop-opacity="0.749"/>
+      <stop offset="0.6" stop-color="#fff" stop-opacity="0.451"/>
+      <stop offset="0.96" stop-color="#fff" stop-opacity="0.039"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-7" x1="-0.011" y1="0.5" x2="0.989" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-opacity="0"/>
+      <stop offset="1"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-8" y1="0.5" x2="0.997" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0.01" stop-opacity="0.302"/>
+      <stop offset="1" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-9" y1="0.503" x2="1" y2="0.503" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#231815"/>
+      <stop offset="0.1" stop-color="#fff" stop-opacity="0.502"/>
+      <stop offset="0.5" stop-color="#231815" stop-opacity="0.502"/>
+      <stop offset="0.9" stop-color="#fff" stop-opacity="0.502"/>
+      <stop offset="1" stop-color="#231815"/>
+    </linearGradient>
+  </defs>
+  <g id="组_983" data-name="组 983" transform="translate(-1570.9 103.3)">
+    <circle id="椭圆_141" data-name="椭圆 141" cx="31" cy="31" r="31" transform="translate(1575.9 -98.3)" fill="url(#linear-gradient)"/>
+    <circle id="椭圆_114" data-name="椭圆 114" cx="28" cy="28" r="28" transform="translate(1578.9 -95.3)" fill="#474747"/>
+    <g transform="matrix(1, 0, 0, 1, 1570.9, -103.3)" filter="url(#椭圆_113)">
+      <circle id="椭圆_113-2" data-name="椭圆 113" cx="27" cy="27" r="27" transform="translate(9 9)" fill="url(#linear-gradient-2)"/>
+    </g>
+    <ellipse id="椭圆_95" data-name="椭圆 95" cx="24.479" cy="24.479" rx="24.479" ry="24.479" transform="translate(1582.421 -91.779)" opacity="0.15" fill="url(#linear-gradient-3)"/>
+    <path id="路径_621" data-name="路径 621" d="M46.6,30.3A26.9,26.9,0,1,0,73.5,57.2,26.979,26.979,0,0,0,46.6,30.3Zm0,51.379A24.479,24.479,0,1,1,71.079,57.2,24.568,24.568,0,0,1,46.6,81.679Z" transform="translate(1560.3 -124.5)" opacity="0.6" fill="url(#linear-gradient-4)"/>
+    <path id="路径_622" data-name="路径 622" d="M45.079,31.369A24.479,24.479,0,1,1,20.6,55.848,24.568,24.568,0,0,1,45.079,31.369m0-.269A24.479,24.479,0,1,0,69.558,55.579,24.568,24.568,0,0,0,45.079,31.1Z" transform="translate(1561.821 -123.148)" fill="url(#linear-gradient-5)"/>
+  </g>
+  <g id="组_1447" data-name="组 1447" transform="translate(-3011.552 -2440.71)">
+    <g id="组_1447-2" data-name="组 1447" transform="translate(3022.471 2447.14)">
+      <path id="路径_1926" data-name="路径 1926" d="M69.187,237.777c0,9.25-10.315,16.637-23.059,16.637s-23.059-7.52-23.059-16.637S33.385,221.14,46.129,221.14,69.187,228.56,69.187,237.777Z" transform="translate(-21.077 -221.14)" opacity="0.5" fill="url(#linear-gradient-6)"/>
+      <path id="路径_1928" data-name="路径 1928" d="M72.611,249.48A25.087,25.087,0,0,0,52.65,224.925l0-.633a2.629,2.629,0,0,0-2.629-2.662H45.127a2.629,2.629,0,0,0-2.629,2.662v.632a25.088,25.088,0,0,0,0,49.145v.632a2.629,2.629,0,0,0,2.629,2.629h4.791a2.629,2.629,0,0,0,2.629-2.629v-.632A25.088,25.088,0,0,0,72.611,249.48Z" transform="translate(-22.471 -220)" fill="#2d2d2d"/>
+      <path id="路径_1929" data-name="路径 1929" d="M25,265.809a25.022,25.022,0,0,0,11.746,5.956V222.62A24.723,24.723,0,0,0,25,228.576Z" transform="translate(-16.585 -217.696)" opacity="0.6" fill="url(#linear-gradient-7)"/>
+      <rect id="矩形_2367" data-name="矩形 2367" width="10.082" height="55.7" rx="3" transform="translate(20.028 1.63)" fill="url(#linear-gradient-8)"/>
+      <g id="组_1171" data-name="组 1171" transform="translate(20.028 3.826)">
+        <path id="路径_1930" data-name="路径 1930" d="M28.49,271.968q0,.3.2.3c.732,0,1.364-11.247,1.4-25.055s-.5-24.955-1.264-24.922a2.125,2.125,0,0,0-.333.9Z" transform="translate(-28.49 -222.29)" fill="#fff" opacity="0.5"/>
+      </g>
+      <g id="组_1172" data-name="组 1172" transform="translate(28.478 3.827)">
+        <path id="路径_1931" data-name="路径 1931" d="M32.628,222.589q0-.3-.2-.3c-.732,0-1.364,11.247-1.4,25.055s.5,24.955,1.264,24.922a2.125,2.125,0,0,0,.333-.9Z" transform="translate(-31.03 -222.29)" fill="#fff" opacity="0.5"/>
+      </g>
+      <rect id="矩形_2368" data-name="矩形 2368" width="3.46" height="13.176" rx="1.73" transform="translate(23.322 4.957)" fill="#fff"/>
+      <rect id="矩形_2369" data-name="矩形 2369" width="3.46" height="13.176" rx="1.73" transform="translate(23.322 4.957)" opacity="0.85" fill="url(#linear-gradient-9)"/>
+    </g>
+  </g>
+  <rect id="矩形_2705" data-name="矩形 2705" width="72" height="72" fill="none"/>
+</svg>

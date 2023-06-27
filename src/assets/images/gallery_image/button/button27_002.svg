@@ -1,0 +1,76 @@
+<svg id="_24-1" data-name="24-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="72" height="72" viewBox="0 0 72 72">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#d8d8d8"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#d7d7d7"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#9d9d9d"/>
+      <stop offset="1" stop-color="#ededed"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-5" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-6" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#dfdfdf"/>
+    </linearGradient>
+    <filter id="椭圆_557" x="14.521" y="22.521" width="28.958" height="28.958" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="0.5" result="blur"/>
+      <feFlood flood-opacity="0.302"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-opacity="0"/>
+      <stop offset="0.89" stop-opacity="0.341"/>
+      <stop offset="0.948" stop-opacity="0.6"/>
+      <stop offset="1" stop-opacity="0.31"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-2" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="0.731" stop-color="#fff" stop-opacity="0.361"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <g id="组_1461" data-name="组 1461" transform="translate(-2622 48)">
+    <rect id="矩形_2616" data-name="矩形 2616" width="65" height="34" rx="17" transform="translate(2626 -29)" fill="url(#linear-gradient)"/>
+    <g id="矩形_2617" data-name="矩形 2617" transform="translate(2626 -29)" fill="none" stroke="#707070" stroke-width="0.5" opacity="0.25">
+      <rect width="65" height="34" rx="17" stroke="none"/>
+      <rect x="0.25" y="0.25" width="64.5" height="33.5" rx="16.75" fill="none"/>
+    </g>
+    <g id="组_1458" data-name="组 1458">
+      <rect id="矩形_2622" data-name="矩形 2622" width="19" height="9" rx="4.5" transform="translate(2668 -16)" fill="url(#linear-gradient-2)"/>
+      <rect id="矩形_2623" data-name="矩形 2623" width="19" height="9" rx="4.5" transform="translate(2630 -16)" fill="url(#linear-gradient-2)"/>
+      <g id="矩形_2618" data-name="矩形 2618" transform="translate(2638 -24)" stroke="#fff" stroke-width="0.25" fill="url(#linear-gradient-4)">
+        <rect width="40" height="24" rx="12" stroke="none"/>
+        <rect x="0.125" y="0.125" width="39.75" height="23.75" rx="11.875" fill="none"/>
+      </g>
+      <path id="减去_31" data-name="减去 31" d="M28,24H12A12,12,0,0,1,0,12.071,11.026,11.026,0,0,0,11,23H29A11.032,11.032,0,0,0,40,12.1,12,12,0,0,1,28,24ZM0,11.9H0A12,12,0,0,1,12,0H28A12,12,0,0,1,39.98,11.311,11.019,11.019,0,0,0,29,1H11A11.032,11.032,0,0,0,0,11.9Z" transform="translate(2638 -24)" opacity="0.19" fill="url(#linear-gradient-5)"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 2622, -48)" filter="url(#椭圆_557)">
+      <ellipse id="椭圆_557-2" data-name="椭圆 557" cx="12.479" cy="12.479" rx="12.479" ry="12.479" transform="translate(16.52 23.52)" stroke="#d6d6d6" stroke-width="1" fill="url(#linear-gradient-6)"/>
+    </g>
+    <g id="组_1459" data-name="组 1459" transform="translate(2612.113 -34)">
+      <rect id="变色层" width="4.687" height="4.687" rx="2.343" transform="translate(20 20)" fill="red"/>
+      <rect id="矩形_2551" data-name="矩形 2551" width="4.687" height="4.687" rx="2.343" transform="translate(20 20)" fill="url(#radial-gradient)"/>
+      <rect id="矩形_2552" data-name="矩形 2552" width="1.914" height="1.359" rx="0.679" transform="matrix(0.883, -0.469, 0.469, 0.883, 20.625, 21.222)" fill="url(#radial-gradient-2)"/>
+      <rect id="矩形_2553" data-name="矩形 2553" width="0.804" height="0.388" rx="0.194" transform="translate(20.769 21.047) rotate(-11)" fill="url(#radial-gradient-2)"/>
+      <rect id="矩形_2554" data-name="矩形 2554" width="0.527" height="0.25" rx="0.125" transform="translate(23.443 21.499) rotate(5)" fill="url(#radial-gradient-2)"/>
+    </g>
+    <g id="组_1460" data-name="组 1460" transform="translate(2660 -34)">
+      <rect id="变色层-2" data-name="变色层" width="4.69" height="4.69" rx="2.345" transform="translate(20 20)" fill="#ededed"/>
+      <rect id="矩形_2551-2" data-name="矩形 2551" width="4.69" height="4.69" rx="2.345" transform="translate(20 20)" fill="url(#radial-gradient)"/>
+      <rect id="矩形_2552-2" data-name="矩形 2552" width="1.915" height="1.36" rx="0.68" transform="matrix(0.883, -0.469, 0.469, 0.883, 20.625, 21.223)" fill="url(#radial-gradient-2)"/>
+      <rect id="矩形_2553-2" data-name="矩形 2553" width="0.805" height="0.389" rx="0.194" transform="translate(20.77 21.048) rotate(-11)" fill="url(#radial-gradient-2)"/>
+      <rect id="矩形_2554-2" data-name="矩形 2554" width="0.527" height="0.25" rx="0.125" transform="translate(23.445 21.5) rotate(5)" fill="url(#radial-gradient-2)"/>
+    </g>
+  </g>
+  <rect id="矩形_2659" data-name="矩形 2659" width="72" height="72" fill="none"/>
+</svg>

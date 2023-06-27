@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        stroke: #707070;
+        stroke-width: 2px;
+      }
+
+      .cls-3 {
+        fill: #707070;
+        font-size: 10px;
+        font-family: PingFang SC Bold, PingFang SC;
+      }
+
+      .cls-4 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="组_1349" data-name="组 1349" transform="translate(17548 21886)">
+    <rect id="矩形_756" data-name="矩形 756" class="cls-1" width="32" height="32" transform="translate(-17548 -21886)"/>
+    <g id="组_1179" data-name="组 1179" transform="translate(-63 116)">
+      <g id="矩形_1037" data-name="矩形 1037" class="cls-2" transform="translate(-17483 -22000)">
+        <rect class="cls-4" width="28" height="28" rx="5"/>
+        <rect class="cls-1" x="1" y="1" width="26" height="26" rx="4"/>
+      </g>
+      <text id="BTN" class="cls-3" transform="translate(-17469 -21982)"><tspan x="-10.16" y="0">BTN</tspan></text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="80" height="80" viewBox="0 0 80 80">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#707070"/>
+      <stop offset="1" stop-color="#474747"/>
+    </linearGradient>
+    <filter id="矩形_899" x="0" y="0" width="80" height="80" filterUnits="userSpaceOnUse">
+      <feOffset dy="4" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="矩形_921" x="3" y="3" width="74" height="74" filterUnits="userSpaceOnUse">
+      <feOffset dy="4" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-2" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff" stop-opacity="0.059"/>
+      <stop offset="1" stop-opacity="0.702"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff" stop-opacity="0.459"/>
+      <stop offset="1" stop-opacity="0.388"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-5" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff" stop-opacity="0.259"/>
+      <stop offset="1" stop-opacity="0.161"/>
+    </linearGradient>
+    <radialGradient id="radial-gradient" cx="0.231" cy="0.046" r="0.431" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff" stop-opacity="0.941"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <g id="_10-1" data-name="10-1" transform="translate(4)">
+    <g id="组_985" data-name="组 985" transform="translate(-1541 22)">
+      <g id="组_984" data-name="组 984">
+        <g transform="matrix(1, 0, 0, 1, 1537, -22)" filter="url(#矩形_899)">
+          <rect id="矩形_899-2" data-name="矩形 899" width="62" height="62" rx="2" transform="translate(9 5)" fill="url(#linear-gradient)"/>
+        </g>
+        <g transform="matrix(1, 0, 0, 1, 1537, -22)" filter="url(#矩形_921)">
+          <rect id="矩形_921-2" data-name="矩形 921" width="56" height="56" rx="2" transform="translate(12 8)" fill="#474747"/>
+        </g>
+        <rect id="矩形_900" data-name="矩形 900" width="54" height="54" rx="1" transform="translate(1550 -13)" fill="#09f"/>
+        <path id="减去_10" data-name="减去 10" d="M53,54H1a1,1,0,0,1-1-1V1A1,1,0,0,1,1,0H53a1,1,0,0,1,1,1V53A1,1,0,0,1,53,54ZM4,3A1,1,0,0,0,3,4V50a1,1,0,0,0,1,1H50a1,1,0,0,0,1-1V4a1,1,0,0,0-1-1Z" transform="translate(1550 -13)" opacity="0.6" fill="url(#linear-gradient-2)"/>
+        <rect id="矩形_903" data-name="矩形 903" width="48" height="48" rx="1" transform="translate(1553 -10)" opacity="0.15" fill="url(#linear-gradient-3)"/>
+        <path id="路径_786" data-name="路径 786" d="M58,12.2a.86.86,0,0,1,.8.8V59a.86.86,0,0,1-.8.8H12a.86.86,0,0,1-.8-.8V13a.86.86,0,0,1,.8-.8H58m0-.2H12a.945.945,0,0,0-1,1V59a.945.945,0,0,0,1,1H58a.945.945,0,0,0,1-1V13a.945.945,0,0,0-1-1Z" transform="translate(1542 -22)" fill="url(#linear-gradient-4)"/>
+        <rect id="矩形_904" data-name="矩形 904" width="40" height="40" rx="2" transform="translate(1597 34) rotate(180)" opacity="0.7" fill="url(#linear-gradient-5)"/>
+      </g>
+    </g>
+    <g id="交叉_13" data-name="交叉 13" transform="translate(11 11)" opacity="0.8" fill="url(#radial-gradient)">
+      <path d="M2,49a1,1,0,0,1-1-1V2A1,1,0,0,1,2,1H48a1,1,0,0,1,1,1V48a1,1,0,0,1-1,1ZM2.846,3.846V46.154a1,1,0,0,0,1,1H46.154a1,1,0,0,0,1-1V3.846a1,1,0,0,0-1-1H3.846A1,1,0,0,0,2.846,3.846Z" stroke="none"/>
+      <path d="M 47.99969863891602 48.79959869384766 C 48.44076919555664 48.79959869384766 48.79959869384766 48.44076919555664 48.79959869384766 47.99969863891602 L 48.79959869384766 1.999800086021423 C 48.79959869384766 1.558730125427246 48.44076919555664 1.199900150299072 47.99969863891602 1.199900150299072 L 1.999800086021423 1.199900150299072 C 1.558730125427246 1.199900150299072 1.199900150299072 1.558730125427246 1.199900150299072 1.999800086021423 L 1.199900150299072 47.99969863891602 C 1.199900150299072 48.44076919555664 1.558730125427246 48.79959869384766 1.999800086021423 48.79959869384766 L 47.99969863891602 48.79959869384766 M 3.845700025558472 2.645800113677979 L 46.15380096435547 2.645800113677979 C 46.8154296875 2.645800113677979 47.35369873046875 3.184070110321045 47.35369873046875 3.845700025558472 L 47.35369873046875 46.15380096435547 C 47.35369873046875 46.8154296875 46.8154296875 47.35369873046875 46.15380096435547 47.35369873046875 L 3.845700025558472 47.35369873046875 C 3.184070110321045 47.35369873046875 2.645800113677979 46.8154296875 2.645800113677979 46.15380096435547 L 2.645800113677979 3.845700025558472 C 2.645800113677979 3.184070110321045 3.184070110321045 2.645800113677979 3.845700025558472 2.645800113677979 M 47.99969863891602 48.99959945678711 L 1.999800086021423 48.99959945678711 C 1.448100090026855 48.99959945678711 0.9999001622200012 48.55229949951172 0.9999001622200012 47.99969863891602 L 0.9999001622200012 1.999800086021423 C 0.9999001622200012 1.448100090026855 1.448100090026855 0.9999001622200012 1.999800086021423 0.9999001622200012 L 47.99969863891602 0.9999001622200012 C 48.55229949951172 0.9999001622200012 48.99959945678711 1.448100090026855 48.99959945678711 1.999800086021423 L 48.99959945678711 47.99969863891602 C 48.99959945678711 48.55229949951172 48.55229949951172 48.99959945678711 47.99969863891602 48.99959945678711 Z M 3.845700025558472 2.845800161361694 C 3.294900178909302 2.845800161361694 2.845800161361694 3.294900178909302 2.845800161361694 3.845700025558472 L 2.845800161361694 46.15380096435547 C 2.845800161361694 46.70550155639648 3.294900178909302 47.15370178222656 3.845700025558472 47.15370178222656 L 46.15380096435547 47.15370178222656 C 46.70550155639648 47.15370178222656 47.15370178222656 46.70550155639648 47.15370178222656 46.15380096435547 L 47.15370178222656 3.845700025558472 C 47.15370178222656 3.294900178909302 46.70550155639648 2.845800161361694 46.15380096435547 2.845800161361694 L 3.845700025558472 2.845800161361694 Z" stroke="none" fill="rgba(255,255,255,0.1)"/>
+    </g>
+    <rect id="矩形_2638" data-name="矩形 2638" width="72" height="72" fill="none"/>
+  </g>
+</svg>

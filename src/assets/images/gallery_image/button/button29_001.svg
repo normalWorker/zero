@@ -1,0 +1,36 @@
+<svg id="_26-1" data-name="26-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="72" height="72" viewBox="0 0 72 72">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#c6c6c6"/>
+      <stop offset="1" stop-color="#f2f2f2"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#202020"/>
+      <stop offset="0.82" stop-color="#494949"/>
+      <stop offset="1" stop-color="#323232"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fefefe"/>
+      <stop offset="1" stop-color="#b4b4b4"/>
+    </linearGradient>
+    <filter id="矩形_849" x="4.5" y="24.5" width="32" height="32" filterUnits="userSpaceOnUse">
+      <feOffset dy="4" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feFlood flood-opacity="0.502"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <rect id="矩形_844" data-name="矩形 844" width="58" height="27" rx="13.5" transform="translate(7 23)" fill="url(#linear-gradient)"/>
+  <rect id="矩形_846" data-name="矩形 846" width="56" height="25" rx="12.5" transform="translate(8 24)" fill="url(#linear-gradient-2)"/>
+  <text id="OFF" transform="translate(47 40)" fill="red" font-size="10" font-family="PingFang SC Medium, PingFang SC"><tspan x="-9.605" y="0">OFF</tspan></text>
+  <g id="组_779" data-name="组 779" transform="translate(1.394 17.435)">
+    <g id="组_775" data-name="组 775" transform="translate(7.648 7.606)">
+      <g transform="matrix(1, 0, 0, 1, -9.04, -25.04)" filter="url(#矩形_849)">
+        <rect id="矩形_849-2" data-name="矩形 849" width="23" height="23" rx="11.5" transform="translate(9 25)" fill="url(#linear-gradient-3)"/>
+      </g>
+      <rect id="矩形_854" data-name="矩形 854" width="16.912" height="16.912" rx="8.456" transform="translate(3.194 3.194)" fill="#f1f1f1" stroke="#fff" stroke-width="0.5"/>
+    </g>
+  </g>
+  <rect id="矩形_2663" data-name="矩形 2663" width="72" height="72" fill="none"/>
+</svg>

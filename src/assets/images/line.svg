@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #707070;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #707070;
+        stroke-width: 3px;
+      }
+    </style>
+  </defs>
+  <g id="组_341" data-name="组 341" transform="translate(-7885 -475)">
+    <circle id="椭圆_7" data-name="椭圆 7" class="cls-1" cx="4.5" cy="4.5" r="4.5" transform="translate(7885 506)"/>
+    <circle id="椭圆_8" data-name="椭圆 8" class="cls-1" cx="4.5" cy="4.5" r="4.5" transform="translate(7916 475)"/>
+    <path id="路径_280" data-name="路径 280" class="cls-2" d="M7889.5,510.5l31.016-31.2"/>
+  </g>
+</svg>

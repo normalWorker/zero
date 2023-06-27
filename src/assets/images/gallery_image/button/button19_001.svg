@@ -1,0 +1,36 @@
+<svg id="_16" data-name="16" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="72" height="72" viewBox="0 0 72 72">
+  <defs>
+    <linearGradient id="linear-gradient" x1="1" y1="1" x2="0.021" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="0.05" stop-color="#eee"/>
+      <stop offset="0.151" stop-color="#fff"/>
+      <stop offset="0.84" stop-color="#fff"/>
+      <stop offset="0.982" stop-color="#eee"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#a4a4a4"/>
+      <stop offset="0.901" stop-color="#f4f4f4"/>
+      <stop offset="0.96" stop-color="#fff"/>
+      <stop offset="1" stop-color="#fafafa"/>
+    </linearGradient>
+    <filter id="矩形_846" x="4.25" y="18.25" width="63.5" height="52.5" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feFlood flood-opacity="0.302"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="组_765" data-name="组 765" transform="translate(-2753 481)">
+    <g id="组_763" data-name="组 763">
+      <rect id="矩形_844" data-name="矩形 844" width="58" height="58" rx="10" transform="translate(2760 -474)" fill="#474747"/>
+      <rect id="矩形_845" data-name="矩形 845" width="56" height="56" rx="9" transform="translate(2761 -473)" fill="url(#linear-gradient)"/>
+      <g transform="matrix(1, 0, 0, 1, 2753, -481)" filter="url(#矩形_846)">
+        <rect id="矩形_846-2" data-name="矩形 846" width="54" height="43" rx="8" transform="translate(9 20)" stroke="#fafafa" stroke-width="0.5" fill="url(#linear-gradient-2)"/>
+      </g>
+      <rect id="矩形_847" data-name="矩形 847" width="15" height="3" rx="1.5" transform="translate(2782 -468)" fill="red"/>
+    </g>
+  </g>
+  <rect id="矩形_2678" data-name="矩形 2678" width="72" height="72" fill="none"/>
+</svg>

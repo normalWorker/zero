@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="72" height="72" viewBox="0 0 72 72">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" y1="-0.001" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#8cc2ff"/>
+      <stop offset="1" stop-color="#008be8"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" y1="-0.001" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#8cc2ff" stop-opacity="0"/>
+      <stop offset="1" stop-opacity="0.102"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="0.5" y1="1" x2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#8df8ff"/>
+      <stop offset="1" stop-color="#09f"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" x1="0.5" y1="0" x2="0.5" y2="1" xlink:href="#linear-gradient-3"/>
+  </defs>
+  <g id="_11-1" data-name="11-1" transform="translate(-15447 -2116)">
+    <rect id="矩形_840" data-name="矩形 840" width="72" height="72" transform="translate(15447 2116)" fill="none"/>
+    <g id="拟物-正常状态-方形按钮_画板_1_副本_3" data-name="拟物-正常状态-方形按钮_画板 1 副本 3" transform="translate(15447 2117.8)">
+      <path id="路径_443" data-name="路径 443" d="M36.4,63h0A28.509,28.509,0,0,1,8,34.6H8A28.509,28.509,0,0,1,36.4,6.2h0A28.509,28.509,0,0,1,64.8,34.6h0A28.509,28.509,0,0,1,36.4,63Z" fill="url(#linear-gradient)"/>
+      <path id="路径_444" data-name="路径 444" d="M36.4,63h0A28.509,28.509,0,0,1,8,34.6H8A28.509,28.509,0,0,1,36.4,6.2h0A28.509,28.509,0,0,1,64.8,34.6h0A28.509,28.509,0,0,1,36.4,63Z" fill="url(#linear-gradient-2)"/>
+      <g id="组_756" data-name="组 756">
+        <path id="路径_445" data-name="路径 445" d="M36.4,60.3h0A25.821,25.821,0,0,1,10.7,34.6h0A25.821,25.821,0,0,1,36.4,8.9h0A25.821,25.821,0,0,1,62.1,34.6h0A25.756,25.756,0,0,1,36.4,60.3Z" fill="url(#linear-gradient-3)"/>
+        <path id="路径_446" data-name="路径 446" d="M36.4,9.9A24.7,24.7,0,1,1,11.7,34.6,24.753,24.753,0,0,1,36.4,9.9m0-1h0A25.821,25.821,0,0,0,10.7,34.6h0A25.821,25.821,0,0,0,36.4,60.3h0A25.821,25.821,0,0,0,62.1,34.6h0A25.692,25.692,0,0,0,36.4,8.9Z" fill="url(#linear-gradient-4)"/>
+      </g>
+      <path id="路径_447" data-name="路径 447" d="M36.4,8.9A25.786,25.786,0,0,1,62.1,34.1v-.5h0a25.7,25.7,0,0,0-51.4,0h0v.5A25.786,25.786,0,0,1,36.4,8.9Z" fill="#d9feff"/>
+    </g>
+  </g>
+</svg>

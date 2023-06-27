@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="108" height="108" viewBox="0 0 108 108">
+  <g id="组_1" data-name="组 1" transform="translate(-274 -36)">
+    <path id="chart_bg" data-name="减去 24" d="M50,100a49.985,49.985,0,1,1,19.462-3.929A50.013,50.013,0,0,1,50,100Zm0-80A30,30,0,1,0,80,50,30,30,0,0,0,50,20Z" transform="translate(278 40.026)" fill="#f3f3f3"/>
+    <path id="路径_1" data-name="路径 1" d="M50,0A50,50,0,1,1,0,50,50,50,0,0,1,50,0Z" transform="translate(278 40.03)" fill="none"/>
+    <path id="chartChangeFill" d="M-19217,22635a30.028,30.028,0,0,0-30-30v-20a49.674,49.674,0,0,1,19.459,3.934,49.836,49.836,0,0,1,15.9,10.717,49.883,49.883,0,0,1,10.713,15.893A49.67,49.67,0,0,1-19197,22635Z" transform="translate(19575 -22544.971)" fill="#478de9"/>
+    <rect id="矩形_1" data-name="矩形 1" width="108" height="108" transform="translate(274 36)" fill="none"/>
+    <g id="边框">
+      <circle id="chart_innerBorder" cx="30" cy="30" r="30" transform="translate(298 60)" fill="none"/>
+      <circle id="chart_outBorder" cx="50" cy="50" r="50" transform="translate(278 40)" fill="none"/>
+    </g>
+  </g>
+</svg>

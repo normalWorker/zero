@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="140" height="35" viewBox="0 0 140 35">
+  <g id="组_1477" data-name="组 1477" transform="translate(8735 -9943)">
+    <g id="组_1021" data-name="组 1021" transform="translate(-8735 9943)">
+      <g id="矩形_954" data-name="矩形 954" fill="#f3f3f3" stroke="#ccc" stroke-width="1">
+        <rect width="140" height="35" rx="2" stroke="none"/>
+        <rect x="0.5" y="0.5" width="139" height="34" rx="1.5" fill="none"/>
+      </g>
+    </g>
+    <g id="组_1068" data-name="组 1068" transform="translate(-19414 19996) rotate(180)">
+      <g id="矩形_789" data-name="矩形 789" transform="translate(-10819 10035)" fill="none" stroke="#ccc" stroke-width="1">
+        <rect width="36" height="18" rx="2" stroke="none"/>
+        <rect x="0.5" y="0.5" width="35" height="17" rx="1.5" fill="none"/>
+      </g>
+      <path id="路径_769" data-name="路径 769" d="M0,0V6.806H6.806" transform="translate(-10806.125 10042.313) rotate(-45)" fill="none" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    </g>
+    <g id="组_1069" data-name="组 1069" transform="translate(2188 -75.143)">
+      <g id="矩形_789-2" data-name="矩形 789" transform="translate(-10819 10035.143)" fill="none" stroke="#ccc" stroke-width="1">
+        <rect width="36" height="18" rx="2" stroke="none"/>
+        <rect x="0.5" y="0.5" width="35" height="17" rx="1.5" fill="none"/>
+      </g>
+      <path id="路径_769-2" data-name="路径 769" d="M0,0V6.806H6.806" transform="translate(-10805.5 10042.313) rotate(-45)" fill="none" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    </g>
+  </g>
+</svg>

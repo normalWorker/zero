@@ -1,0 +1,69 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="76" height="78" viewBox="0 0 76 78">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#c1c1c1"/>
+    </linearGradient>
+    <filter id="矩形_899" x="0" y="2" width="76" height="76" filterUnits="userSpaceOnUse">
+      <feOffset dy="4" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="变色层" x="6.5" y="8.5" width="63" height="63" filterUnits="userSpaceOnUse">
+      <feOffset dy="4" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur-2"/>
+      <feFlood flood-opacity="0.502"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-2" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff" stop-opacity="0.059"/>
+      <stop offset="1" stop-opacity="0.702"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff" stop-opacity="0.459"/>
+      <stop offset="1" stop-opacity="0.388"/>
+    </linearGradient>
+    <radialGradient id="radial-gradient" cx="0.142" cy="0.126" r="0.728" gradientTransform="translate(0.002 -0.002) rotate(0.835)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0.129"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-2" cx="0.231" cy="0.046" r="0.431" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff" stop-opacity="0.941"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <g id="_08" data-name="08" transform="translate(2)">
+    <g id="组_991" data-name="组 991">
+      <g id="组_985" data-name="组 985" transform="translate(-1541 22)">
+        <g id="组_984" data-name="组 984">
+          <g transform="matrix(1, 0, 0, 1, 1539, -22)" filter="url(#矩形_899)">
+            <g id="矩形_899-2" data-name="矩形 899" transform="translate(9 7)" stroke="#707070" stroke-width="1" fill="url(#linear-gradient)">
+              <rect width="58" height="58" rx="2" stroke="none"/>
+              <rect x="0.5" y="0.5" width="57" height="57" rx="1.5" fill="none"/>
+            </g>
+          </g>
+          <g transform="matrix(1, 0, 0, 1, 1539, -22)" filter="url(#变色层)">
+            <rect class="shapeChangeFill" data-name="变色层" width="54" height="54" rx="1" transform="translate(11 9)" fill="#09f"/>
+          </g>
+          <path id="减去_10" data-name="减去 10" d="M53,54H1a1,1,0,0,1-1-1V1A1,1,0,0,1,1,0H53a1,1,0,0,1,1,1V53A1,1,0,0,1,53,54ZM4,3A1,1,0,0,0,3,4V50a1,1,0,0,0,1,1H50a1,1,0,0,0,1-1V4a1,1,0,0,0-1-1Z" transform="translate(1550 -13)" opacity="0.6" fill="url(#linear-gradient-2)"/>
+          <rect id="矩形_903" data-name="矩形 903" width="48" height="48" rx="1" transform="translate(1553 -10)" opacity="0.15" fill="url(#linear-gradient-3)"/>
+          <path id="路径_786" data-name="路径 786" d="M58,12.2a.86.86,0,0,1,.8.8V59a.86.86,0,0,1-.8.8H12a.86.86,0,0,1-.8-.8V13a.86.86,0,0,1,.8-.8H58m0-.2H12a.945.945,0,0,0-1,1V59a.945.945,0,0,0,1,1H58a.945.945,0,0,0,1-1V13a.945.945,0,0,0-1-1Z" transform="translate(1542 -22)" fill="url(#linear-gradient-4)"/>
+          <rect id="矩形_920" data-name="矩形 920" width="48" height="47" rx="1" transform="translate(1553 -10)" opacity="0.3" fill="url(#radial-gradient)"/>
+        </g>
+      </g>
+      <g id="交叉_13" data-name="交叉 13" transform="translate(9 9)" opacity="0.8" fill="url(#radial-gradient-2)">
+        <path d="M2,53a1,1,0,0,1-1-1V2A1,1,0,0,1,2,1H52a1,1,0,0,1,1,1V52a1,1,0,0,1-1,1ZM3,4V50a1,1,0,0,0,1,1H50a1,1,0,0,0,1-1V4a1,1,0,0,0-1-1H4A1,1,0,0,0,3,4Z" stroke="none"/>
+        <path d="M 52.00020217895508 52.80010223388672 C 52.4412727355957 52.80010223388672 52.80010223388672 52.4412727355957 52.80010223388672 52.00020217895508 L 52.80010223388672 1.999801874160767 C 52.80010223388672 1.558731913566589 52.4412727355957 1.199901938438416 52.00020217895508 1.199901938438416 L 1.999801874160767 1.199901938438416 C 1.558731913566589 1.199901938438416 1.199901938438416 1.558731913566589 1.199901938438416 1.999801874160767 L 1.199901938438416 52.00020217895508 C 1.199901938438416 52.4412727355957 1.558731913566589 52.80010223388672 1.999801874160767 52.80010223388672 L 52.00020217895508 52.80010223388672 M 3.9996018409729 2.799701929092407 L 50.00040054321289 2.799701929092407 C 50.66203308105469 2.799701929092407 51.20030212402344 3.337971925735474 51.20030212402344 3.9996018409729 L 51.20030212402344 50.00040054321289 C 51.20030212402344 50.66203308105469 50.66203308105469 51.20030212402344 50.00040054321289 51.20030212402344 L 3.9996018409729 51.20030212402344 C 3.337971925735474 51.20030212402344 2.799701929092407 50.66203308105469 2.799701929092407 50.00040054321289 L 2.799701929092407 3.9996018409729 C 2.799701929092407 3.337971925735474 3.337971925735474 2.799701929092407 3.9996018409729 2.799701929092407 M 52.00020217895508 53.00010299682617 L 1.999801874160767 53.00010299682617 C 1.448101878166199 53.00010299682617 0.9999018907546997 52.55190277099609 0.9999018907546997 52.00020217895508 L 0.9999018907546997 1.999801874160767 C 0.9999018907546997 1.448101878166199 1.448101878166199 0.9999018907546997 1.999801874160767 0.9999018907546997 L 52.00020217895508 0.9999018907546997 C 52.55190277099609 0.9999018907546997 53.00010299682617 1.448101878166199 53.00010299682617 1.999801874160767 L 53.00010299682617 52.00020217895508 C 53.00010299682617 52.55190277099609 52.55190277099609 53.00010299682617 52.00020217895508 53.00010299682617 Z M 3.9996018409729 2.999701976776123 C 3.447901964187622 2.999701976776123 2.999701976776123 3.447901964187622 2.999701976776123 3.9996018409729 L 2.999701976776123 50.00040054321289 C 2.999701976776123 50.55210113525391 3.447901964187622 51.00030136108398 3.9996018409729 51.00030136108398 L 50.00040054321289 51.00030136108398 C 50.55210113525391 51.00030136108398 51.00030136108398 50.55210113525391 51.00030136108398 50.00040054321289 L 51.00030136108398 3.9996018409729 C 51.00030136108398 3.447901964187622 50.55210113525391 2.999701976776123 50.00040054321289 2.999701976776123 L 3.9996018409729 2.999701976776123 Z" stroke="none" fill="rgba(255,255,255,0.1)"/>
+      </g>
+    </g>
+    <rect id="矩形_2638" data-name="矩形 2638" width="72" height="72" fill="none"/>
+  </g>
+</svg>

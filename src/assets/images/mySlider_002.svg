@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="225" height="18" viewBox="0 0 225 18">
+  <g id="组_1501" data-name="组 1501" transform="translate(-34 -37)">
+    <g id="矩形_1161" data-name="矩形 1161" transform="translate(62 44)" fill="#ccc" stroke="#f3f3f3" stroke-width="2">
+      <rect width="157" height="4" rx="2" stroke="none"/>
+      <rect x="-1" y="-1" width="159" height="6" rx="3" fill="none"/>
+    </g>
+    <rect id="矩形_1162" data-name="矩形 1162" width="47" height="4" rx="2" transform="translate(62 44)" fill="#478de9"/>
+    <text id="_0_" data-name="0%" transform="translate(42 50)" fill="#515b6f" font-size="10" font-family="PingFang SC Bold, PingFang SC"><tspan x="-7.95" y="0">0%</tspan></text>
+    <text id="_100_" data-name="100%" transform="translate(259 50)" fill="#515b6f" font-size="10" font-family="PingFang SC Bold, PingFang SC"><tspan x="-27.9" y="0">100%</tspan></text>
+    <g id="组_1499" data-name="组 1499" transform="translate(-63)">
+      <g id="矩形_1052" data-name="矩形 1052" transform="translate(157 37)" fill="#fff" stroke="#478de9" stroke-width="2">
+        <rect width="28" height="18" rx="9" stroke="none"/>
+        <rect x="1" y="1" width="26" height="16" rx="8" fill="none"/>
+      </g>
+      <text id="_30_" data-name="30%" transform="translate(171 49)" fill="#478de9" font-size="8" font-family="PingFang SC Bold, PingFang SC"><tspan x="-8.76" y="0">30%</tspan></text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="120" height="36" viewBox="0 0 120 36">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#515b6f"/>
+      <stop offset="1" stop-color="#f3f3f3" stop-opacity="0.51"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0.51"/>
+    </linearGradient>
+    <filter id="减去_6" x="0" y="0" width="138" height="54" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="_02" data-name="02" transform="translate(13025 775)">
+    <path id="路径_760" data-name="路径 760" d="M2,0H118a2,2,0,0,1,2,2V34a2,2,0,0,1-2,2H2a2,2,0,0,1-2-2V2A2,2,0,0,1,2,0Z" transform="translate(-13025 -775)" fill="#f3f3f3"/>
+    <path id="联合_7" data-name="联合 7" d="M0,4V2A2,2,0,0,1,2,0H118a2,2,0,0,1,2,2V4Z" transform="translate(-13025 -775)" fill="url(#linear-gradient)"/>
+    <path id="联合_8" data-name="联合 8" d="M0,4V2A2,2,0,0,1,2,0H118a2,2,0,0,1,2,2V4Z" transform="translate(-12905 -739) rotate(180)" fill="url(#linear-gradient-2)"/>
+    <g transform="matrix(1, 0, 0, 1, -13034, -781)" filter="url(#减去_6)">
+      <path id="减去_6-2" data-name="减去 6" d="M118,36H2a2,2,0,0,1-2-2V2A2,2,0,0,1,2,0H118a2,2,0,0,1,2,2V34A2,2,0,0,1,118,36ZM3,1A2,2,0,0,0,1,3V33a2,2,0,0,0,2,2H117a2,2,0,0,0,2-2V3a2,2,0,0,0-2-2Z" transform="translate(9 6)" fill="#a7a7a7"/>
+    </g>
+    <text id="_000000" data-name="000000" transform="translate(-12990 -752)" fill="#515b6f" font-size="14" font-family="PingFang SC Medium, PingFang SC"><tspan x="0" y="0">000000</tspan></text>
+  </g>
+</svg>
