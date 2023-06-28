@@ -26,31 +26,6 @@
             </Upload>
           </div>
           <div style="margin-top: 32px">
-            <span>自由绘画模式：</span>
-
-            <i-switch
-              @on-change="drawLine"
-              v-model="value"
-              size="large"
-            ></i-switch>
-          </div>
-          <div style="margin-top: 32px">
-            <span>自由绘制图形：</span>
-
-            <i-switch @on-change="turnOn" v-model="on" size="large"></i-switch>
-
-            <Select
-              @on-change="drawGraph"
-              style="margin-top: 16px"
-              v-model="type"
-            >
-              <Option v-for="item in freeObj" :value="item.id" :key="item.name">
-                {{ item.name }}
-              </Option>
-            </Select>
-          </div>
-
-          <div style="margin-top: 32px">
             <p slot="content">
               <Tooltip
                 disabled
@@ -89,6 +64,31 @@
                 </div>
               </Tooltip>
             </p>
+          </div>
+          <div style="margin-top: 32px">
+            <span>自由绘画模式：</span>
+
+            <i-switch
+              @on-change="drawLine"
+              v-model="value"
+              size="large"
+            ></i-switch>
+          </div>
+
+          <div style="margin-top: 32px">
+            <span>自由绘制图形：</span>
+
+            <i-switch @on-change="turnOn" v-model="on" size="large"></i-switch>
+
+            <Select
+              @on-change="drawGraph"
+              style="margin-top: 16px"
+              v-model="type"
+            >
+              <Option v-for="item in freeObj" :value="item.id" :key="item.name">
+                {{ item.name }}
+              </Option>
+            </Select>
           </div>
         </div>
       </div>
@@ -181,14 +181,6 @@ export default {
         {
           name: "线段",
           id: "line",
-        },
-        {
-          name: "折线",
-          id: "foldline",
-        },
-        {
-          name: "三角形",
-          id: "triangle",
         },
       ],
     };

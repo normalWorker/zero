@@ -2,12 +2,17 @@
   <div class="container">
     <canvas height="1000" width="100%" id="myCanvas" ref="canvas"></canvas>
 
+    <!-- 右键菜单 -->
     <Dropdown @on-click="changeMenu" trigger="click" id="menu_list">
       <DropdownMenu>
         <DropdownItem name="delete">删除</DropdownItem>
         <DropdownItem name="ungroup">解组</DropdownItem>
+        <DropdownItem name="upup">向上一层</DropdownItem>
+        <DropdownItem name="downdown">向下一层</DropdownItem>
       </DropdownMenu>
     </Dropdown>
+
+    <!-- 自定义图形部分 -->
     <Modal
       title="自定义"
       @on-ok="confirm"
@@ -52,6 +57,8 @@
 
 <script>
 import { fabric } from "fabric";
+import prototypefabric from "../tools/polyline.js";
+
 // import window from "@/assets/窗户.png";
 var canvas;
 
@@ -110,6 +117,7 @@ export default {
     return {
       downPoint: {},
       isDragging: false,
+      polylineMode: false,
 
       currentType: "",
 
@@ -242,6 +250,8 @@ export default {
             menu.style.position = "absolute";
 
             menu.style.display = "block";
+          } else if (this.polylineMode) {
+            prototypefabric.polyline.canvasMouseDown(opt, canvas);
           } else {
             let evt = opt.e;
             let menu = document.getElementById("menu_list");
@@ -274,6 +284,15 @@ export default {
 
             canvas.lastPosX = evt.clientX;
             canvas.lastPosY = evt.clientY;
+          } else if (this.polylineMode == true) {
+            prototypefabric.polyline.canvasMouseMove(opt, canvas);
+          }
+        });
+
+        canvas.on("mouse:dblclick", (opt) => {
+          if (this.polylineMode) {
+            prototypefabric.polyline.canvasMouseDblclick(opt, canvas);
+            this.polylineMode = false;
           }
         });
 
@@ -311,22 +330,37 @@ export default {
           }
         });
 
-        canvas.on("mouse:dblclick", () => {
-          // 取消折线模式
-          canvas.polylineMode = false;
-        });
-
         //框选事件
         fabric.util.addListener(document, "keydown", (e) => {
-          if (e.keyCode === 13) {
-            if (!canvas.getActiveObject()) {
-              return;
+          if (!canvas.getActiveObject()) {
+            return;
+          } else {
+            switch (e.keyCode) {
+              case 13:
+                canvas.getActiveObject().toGroup();
+                canvas.requestRenderAll();
+                break;
+              case 38:
+                canvas.getActiveObject().top =
+                  canvas.getActiveObject().top - 50;
+                canvas.renderAll();
+                break;
+              case 40:
+                canvas.getActiveObject().top =
+                  canvas.getActiveObject().top + 50;
+                canvas.renderAll();
+                break;
+              case 37:
+                canvas.getActiveObject().left =
+                  canvas.getActiveObject().left - 50;
+                canvas.renderAll();
+                break;
+              case 39:
+                canvas.getActiveObject().left =
+                  canvas.getActiveObject().left + 50;
+                canvas.renderAll();
+                break;
             }
-            if (canvas.getActiveObject().type !== "activeSelection") {
-              return;
-            }
-            canvas.getActiveObject().toGroup();
-            canvas.requestRenderAll();
           }
         });
       }
@@ -363,10 +397,11 @@ export default {
     },
 
     drawPolyline() {
-      this.canvas.polylineMode = true;
+      this.polylineMode = true;
     },
 
     addRect(a, b) {
+      this.polylineMode = false;
       var rect = new fabric.Rect({
         left: b,
         top: a,
@@ -672,6 +707,7 @@ export default {
       canvas.add(circle);
     },
 
+    //摆钟效果
     clock(circle) {
       circle.animate("angle", "+=60", {
         onChange: canvas.renderAll.bind(canvas), // 每次刷新的时候都会执行
@@ -715,6 +751,22 @@ export default {
         }
         canvas.getActiveObject().toActiveSelection(); //解组
         canvas.requestRenderAll();
+      } else if (e == "upup") {
+        if (!canvas.getActiveObject()) {
+          return;
+        } else {
+          canvas.getActiveObject().bringForward();
+          canvas.requestRenderAll();
+        }
+
+        canvas.requestRenderAll();
+      } else if (e == "downdown") {
+        if (!canvas.getActiveObject()) {
+          return;
+        } else {
+          canvas.getActiveObject().sendBackwards();
+          canvas.requestRenderAll();
+        }
       }
     },
   },
