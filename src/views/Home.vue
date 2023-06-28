@@ -136,12 +136,7 @@ export default {
           key: "a_4",
           imgName: require("@/assets/images/text.svg"),
         },
-        {
-          name: "图片",
-          type: "image",
-          key: "a_5",
-          imgName: require("@/assets/images/image.svg"),
-        },
+
         {
           name: "折线",
           type: "polyline",
@@ -153,12 +148,6 @@ export default {
           type: "polygon",
           key: "a_7",
           imgName: require("@/assets/images/polygon.svg"),
-        },
-        {
-          name: "表格",
-          type: "table",
-          key: "a_8",
-          imgName: require("@/assets/images/table.svg"),
         },
       ],
 
@@ -203,20 +192,13 @@ export default {
     },
 
     onDragstart(event, index, key) {
-      this.activeIndex = index;
-      this.activeKey = key;
-      this.$refs.fabricCanvas.currentTypeGo(event);
+      this.selectIndex(index, key, event);
     },
+
     selectIndex(index, key, type) {
       this.activeIndex = index;
       this.activeKey = key;
-      if (type == "polyline") {
-        this.$refs.fabricCanvas.drawPolyline();
-      } else if (type == "polygon") {
-        this.$refs.toolbar.drawPolygon();
-      } else if (type == "newPipe") {
-        this.$refs.toolbar.drawPipe();
-      }
+      this.$refs.fabricCanvas.drawMode(type);
     },
 
     drawLine(status) {

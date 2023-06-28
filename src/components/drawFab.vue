@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <canvas height="1000" width="100%" id="myCanvas" ref="canvas"></canvas>
+    <canvas height="100%" width="100%" id="myCanvas" ref="canvas"></canvas>
 
     <!-- 右键菜单 -->
     <Dropdown @on-click="changeMenu" trigger="click" id="menu_list">
@@ -62,6 +62,7 @@ import prototypefabric from "../tools/polyline.js";
 // import window from "@/assets/窗户.png";
 var canvas;
 
+//自定义标签矩形
 var LabeledRect = fabric.util.createClass(fabric.Rect, {
   type: "labeledRect",
   // initialize can be of type function(options) or function(property, options), like for text.
@@ -115,14 +116,13 @@ export default {
 
   data() {
     return {
-      downPoint: {},
-      isDragging: false,
-      polylineMode: false,
+      downPoint: {}, //自由绘制部分点击坐标
 
-      currentType: "",
+      isDragging: false, //canvas拖动
+      mode: "", //哪个模式（折线/多边形）
+      modalOpen: false, //自定义框
 
-      modalOpen: false,
-
+      //自定义内容
       customObj: {
         width: null,
         height: null,
@@ -132,6 +132,7 @@ export default {
         fill: "",
       },
 
+      //自定义图形rule
       customRules: {
         width: [
           {
@@ -174,7 +175,7 @@ export default {
       canvas = new fabric.Canvas(this.$refs.canvas, {
         fireRightClick: true, //启用右键
         stopContextMenu: true, //禁止默认右键菜单
-        height: 968,
+        height: 900,
         width: 1600,
         // backgroundColor:"",
       });
@@ -222,8 +223,8 @@ export default {
         });
       }
 
-      //监听鼠标点击实现画布拖动
       if (canvas) {
+        //鼠标按下
         canvas.on("mouse:down", (opt) => {
           if (opt.button === 3 && opt.e && canvas.getActiveObject()) {
             let menu = document.getElementById("menu_list");
@@ -250,9 +251,17 @@ export default {
             menu.style.position = "absolute";
 
             menu.style.display = "block";
-          } else if (this.polylineMode) {
-            prototypefabric.polyline.canvasMouseDown(opt, canvas);
+          } else if (this.mode) {
+            //工具栏选择折线/多边形后进行多点绘制
+            switch (this.mode) {
+              case "polyline":
+                prototypefabric.polyline.canvasMouseDown(opt, canvas);
+                break;
+              case "polygon":
+                prototypefabric.polygon.canvasMouseDown(opt, canvas);
+            }
           } else {
+            //监听鼠标点击实现画布拖动
             let evt = opt.e;
             let menu = document.getElementById("menu_list");
             menu.style.display = "none";
@@ -266,10 +275,10 @@ export default {
           }
         });
 
+        //鼠标移动
         canvas.on("mouse:move", (opt) => {
           if (canvas.isDragging) {
             let evt = opt.e;
-
             /**
              * viewportTransform是一个数组，用于获取当前视角变化矩阵
              * [a,b,c,d,e,f,g]
@@ -284,18 +293,35 @@ export default {
 
             canvas.lastPosX = evt.clientX;
             canvas.lastPosY = evt.clientY;
-          } else if (this.polylineMode == true) {
-            prototypefabric.polyline.canvasMouseMove(opt, canvas);
+          } else if (this.mode) {
+            switch (this.mode) {
+              case "polyline":
+                prototypefabric.polyline.canvasMouseMove(opt, canvas);
+                break;
+              case "polygon":
+                prototypefabric.polygon.canvasMouseMove(opt, canvas);
+                break;
+            }
           }
         });
 
+        //鼠标双击
         canvas.on("mouse:dblclick", (opt) => {
-          if (this.polylineMode) {
-            prototypefabric.polyline.canvasMouseDblclick(opt, canvas);
-            this.polylineMode = false;
+          if (this.mode) {
+            switch (this.mode) {
+              case "polyline":
+                prototypefabric.polyline.canvasMouseDblclick(opt, canvas);
+                break;
+              case "polygon":
+                prototypefabric.polygon.canvasMouseDblclick(opt, canvas);
+                break;
+            }
+
+            this.mode = "";
           }
         });
 
+        //鼠标抬起
         canvas.on("mouse:up", () => {
           canvas.setViewportTransform(canvas.viewportTransform); //聚焦视图设定
           canvas.isDragging = false;
@@ -317,7 +343,7 @@ export default {
 
           let pointerVpt = canvas.restorePointerVpt(point);
 
-          switch (this.currentType) {
+          switch (this.mode) {
             case "rect":
               this.addRect(pointerVpt.y, pointerVpt.x);
               break;
@@ -326,6 +352,9 @@ export default {
               break;
             case "i-text":
               this.addText2(pointerVpt.y, pointerVpt.x);
+              break;
+            case "line":
+              this.addLine(pointerVpt.y, pointerVpt.x);
               break;
           }
         });
@@ -366,13 +395,8 @@ export default {
       }
     },
 
-    currentTypeGo(e) {
-      this.currentType = e;
-    },
-
     //单击对象时添加特效
     animate(e, dir) {
-      let that = this;
       if (e.target) {
         // fabric.util.animate({
         //   startValue: e.target.get("angle"),
@@ -386,7 +410,7 @@ export default {
           duration: 100,
           onChange: (value) => {
             e.target.scale(value);
-            that.canvas.renderAll();
+            canvas.requestRenderAll();
           },
           onComplete: function () {
             // 调用 setCoords 方法更新对象的坐标和边界框
@@ -396,12 +420,13 @@ export default {
       }
     },
 
-    drawPolyline() {
-      this.polylineMode = true;
+    //工具栏选择图形种类
+    drawMode(type) {
+      this.mode = type;
     },
 
+    //工具栏拖入部分
     addRect(a, b) {
-      this.polylineMode = false;
       var rect = new fabric.Rect({
         left: b,
         top: a,
@@ -411,7 +436,6 @@ export default {
       });
       canvas.add(rect);
     },
-
     addCircle(a, b) {
       var circle = new fabric.Circle({
         left: b,
@@ -421,7 +445,6 @@ export default {
       });
       canvas.add(circle);
     },
-
     addText2(a, b) {
       var text = new fabric.IText("Hello Fabric!", {
         left: b,
@@ -430,7 +453,20 @@ export default {
       });
       canvas.add(text);
     },
+    addLine(a, b) {
+      var line = new fabric.Line([b - 50, a, b + 50, a]);
+      line.set({
+        fill: "#000",
+        stroke: "#000", //笔触颜色
+        strokeWidth: 3, //笔触宽度
+        originX: "left",
+        originY: "top",
+      });
+      canvas.add(line);
+      canvas.setActiveObject(line);
+    },
 
+    //点击按钮生成部分
     drawRectangle() {
       var rect = new fabric.Rect({
         left: 100,
@@ -468,13 +504,98 @@ export default {
       });
       canvas.add(ellipse);
     },
-
     drawPink() {
+      //自定义图形
       this.modalOpen = true;
       var labeledRect = new LabeledRect(this.customObj);
       canvas.add(labeledRect);
     },
+    addPic(e) {
+      //添加图片缩放0.5倍
+      fabric.Image.fromURL(e, (oImg) => {
+        oImg.scale(0.5); // 缩放
+        canvas.add(oImg); // 将图片加入到画布
+      });
+    },
+    drawSemi() {
+      //半圆
+      let semicircle = new Semicircle({
+        left: 50,
+        top: 50,
+        lineWidth: 10,
+        fill: "#ed5736",
+        stroke: "#7bcfa6",
+      });
+      canvas.add(semicircle);
+    },
+    //径向渐变
+    gradient() {
+      let circle = new fabric.Circle({
+        left: 300,
+        top: 300,
+        radius: 50,
+      });
 
+      let gradient = new fabric.Gradient({
+        type: "linear",
+        gradientUnits: "pixels",
+        coords: { x1: 0, y1: 0, x2: 2 * circle.radius, y2: 0 },
+        colorStops: [
+          { offset: 0, color: "red" },
+          { offset: 0.2, color: "yellow" },
+          { offset: 0.6, color: "blue" },
+          { offset: 0.8, color: "green" },
+          { offset: 1, color: "purple" },
+        ],
+      });
+
+      let gradient2 = new fabric.Gradient({
+        type: "radial",
+        coords: {
+          r1: 50, // 该属性仅径向渐变可用，外圆半径
+          r2: 0, // 该属性仅径向渐变可用，内圆半径
+          x1: 50, // 焦点的x坐标
+          y1: 50, // 焦点的y坐标
+          x2: 50, // 中心点的x坐标
+          y2: 50, // 中心点的y坐标
+        },
+        colorStops: [
+          { offset: 0, color: "orange" },
+
+          { offset: 0.2, color: "#fee140" },
+          { offset: 0.4, color: "pink" }, //偏移量
+
+          { offset: 0.6, color: "#fa709a" }, //偏移量
+
+          { offset: 1, color: "#ff709a" }, //偏移量
+        ],
+      });
+
+      circle.set("fill", gradient);
+
+      circle.on("mousedown", (e) => {
+        if (e.target.fill.type == "linear") {
+          circle.set("fill", gradient2);
+        } else {
+          this.clock(circle);
+        }
+      });
+
+      circle.hasBorders = false; //禁用边框
+      circle.hasControls = false; //禁用控制角
+
+      canvas.add(circle);
+    },
+    //摆钟效果
+    clock(circle) {
+      circle.animate("angle", "+=60", {
+        onChange: canvas.renderAll.bind(canvas), // 每次刷新的时候都会执行
+        duration: 2000, // 执行时间
+        easing: fabric.util.ease.easeOutBounce, // 缓冲效果
+      });
+    },
+
+    //下拉框选择自由绘制图形
     drawGraph(status, type) {
       if (status) {
         canvas.selectionColor = "transparent"; //框选内样式
@@ -500,7 +621,7 @@ export default {
       }
     },
 
-    //清除
+    //清除所有自由绘制事件
     clearEvent() {
       if (canvas.__eventListeners["mouse:down"]) {
         canvas.off("mouse:down");
@@ -514,9 +635,11 @@ export default {
       canvas.selectionBorderColor = "rgba(255, 255, 255, 0.3)";
       canvas.skipTargetFind = false; // 允许选中
 
+      //重置所有事件
       this.canvasAction();
     },
 
+    //自由绘制部分
     createRect(pointer) {
       let top = Math.min(this.downPoint.y, pointer.y);
       let left = Math.min(this.downPoint.x, pointer.x);
@@ -630,92 +753,7 @@ export default {
       }
     },
 
-    addPic(e) {
-      //添加图片缩放0.5倍
-      fabric.Image.fromURL(e, (oImg) => {
-        oImg.scale(0.5); // 缩放
-        canvas.add(oImg); // 将图片加入到画布
-      });
-    },
-
-    drawSemi() {
-      let semicircle = new Semicircle({
-        left: 50,
-        top: 50,
-        lineWidth: 10,
-        fill: "#ed5736",
-        stroke: "#7bcfa6",
-      });
-      canvas.add(semicircle);
-    },
-
-    gradient() {
-      let circle = new fabric.Circle({
-        left: 300,
-        top: 300,
-        radius: 50,
-      });
-
-      let gradient = new fabric.Gradient({
-        type: "linear",
-        gradientUnits: "pixels",
-        coords: { x1: 0, y1: 0, x2: 2 * circle.radius, y2: 0 },
-        colorStops: [
-          { offset: 0, color: "red" },
-          { offset: 0.2, color: "yellow" },
-          { offset: 0.6, color: "blue" },
-          { offset: 0.8, color: "green" },
-          { offset: 1, color: "purple" },
-        ],
-      });
-
-      let gradient2 = new fabric.Gradient({
-        type: "radial",
-        coords: {
-          r1: 50, // 该属性仅径向渐变可用，外圆半径
-          r2: 0, // 该属性仅径向渐变可用，内圆半径
-          x1: 50, // 焦点的x坐标
-          y1: 50, // 焦点的y坐标
-          x2: 50, // 中心点的x坐标
-          y2: 50, // 中心点的y坐标
-        },
-        colorStops: [
-          { offset: 0, color: "orange" },
-
-          { offset: 0.2, color: "#fee140" },
-          { offset: 0.4, color: "pink" }, //偏移量
-
-          { offset: 0.6, color: "#fa709a" }, //偏移量
-
-          { offset: 1, color: "#ff709a" }, //偏移量
-        ],
-      });
-
-      circle.set("fill", gradient);
-
-      circle.on("mousedown", (e) => {
-        if (e.target.fill.type == "linear") {
-          circle.set("fill", gradient2);
-        } else {
-          this.clock(circle);
-        }
-      });
-
-      circle.hasBorders = false; //禁用边框
-      circle.hasControls = false; //禁用控制角
-
-      canvas.add(circle);
-    },
-
-    //摆钟效果
-    clock(circle) {
-      circle.animate("angle", "+=60", {
-        onChange: canvas.renderAll.bind(canvas), // 每次刷新的时候都会执行
-        duration: 2000, // 执行时间
-        easing: fabric.util.ease.easeOutBounce, // 缓冲效果
-      });
-    },
-
+    //自定义弹出框事件
     confirm() {
       this.modalOpen = false;
       this.drawPink();
@@ -725,6 +763,7 @@ export default {
       this.customObj.resetFields();
     },
 
+    //右键菜单事件
     changeMenu(e) {
       let menu = document.getElementById("menu_list");
 
